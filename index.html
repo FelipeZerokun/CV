@@ -3,120 +3,83 @@
   <head>
     <meta charset="utf-8">
     <title>Felipe Rojas Personal Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="Images/wolf_icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
   </head>
   <body>
-    <table cellspacing = "20">
-      <tr>
-        <td><img src="Images/profile_image.png" alt="Felipe's Profile picture" style="width:200px;height:220px;"></td>
-        <td><h1>Felipe Rojas </h1>
-        <p><em>Mechatronics Student</em>, also <strong>robotis and AI enthusiast.</strong></p>
-        <p>
-          I am a Mechatronics engineer graduated on December 2018.
-          Since then, I have been studying about <em>Machine learning, Deep learning, Artificial intelligence, Robotics, IoT</em> and other thigs.
+
+    <div class="languages-container">
+      <a href="index.html">English</a>
+      <a href>Español</a>
+      <a href>日本語</a>
+    </div>
+
+    <div class= "top-container">
+      <h1>I'm Felipe Rojas</h1>
+      <h2>A Mechatronics engineer</h2>
+      <h2>Robotics and AI enthusiast</h3>
+    </div>
+
+    <div class="middle-container">
+      <div class="profile">
+        <img class = "my-picture" src="Images/profile_image.png" alt="my profile image">
+        <h2>About myself.</h2>
+        <p class="my_description">
+          Hi everyone! My name is Felipe Rojas, I live in Ecuador, and I am an engineer<br />
+          I have been studying about <em>Machine learning, Deep learning, Artificial intelligence, Robotics, IoT</em> and other thigs.
           <br>
           I made a course on Udacity of <em>Self Driving Car Engineering</em> on July 2020, which I finished on January 2021.
           <br>
           I upload many of my projects to my <a href="https://github.com/FelipeZerokun">Github</a>, so you can see my work there.
-          <br>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="robot-icon" src="https://cdn-icons.flaticon.com/png/512/2539/premium/2539875.png?token=exp=1643921483~hmac=00b07caeb7d864de9dc10fa3c3681a79" alt="robot icon">
+          <h3>My career</h3>
+          <p class=" my-career">
+            I studied Mechatronics Engineering and graduated from my university on December 2018. <br>
+            I know about electronics, mechanics, control systems, <br />industrial programming, automation and more.
+
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="ai-icon" src="https://cdn-icons-png.flaticon.com/512/1693/1693820.png" alt="AI Icon">
+          <h3>My vocation</h3>
+          <p class="my-vocation">
+            I have been interested in robots since I was a child. That's why I picked my career.
+            However, in the university I learned a bit of Artificial Intelligence, and I loved it. <br />
+            Since then, I have been reinforcing my programming skills, and getting deeper into the world of Compute Science.
+          </p>
+        </div>
+        <a class="works-link" href="work_and_experience.html">Check my Education and works here</a>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <p>
+          I am actually residing in Ecuador, but I am looking for Jobs all over the world.<br />
+          I know English and Spanish, and I am learning Japanese, Italian and German.
         </p>
-      </td>
-      </tr>
-    </table>
-
-    <hr size="3">
-    <h3>My Education</h3>
-
-    <ul>
-      <li>SolidWorks associate for Mechanical Design from SolidWorks on June 2014.</li>
-      <li>Graduated from UTE university as a Mechatronics engineer in Ecuador on December 2018.</li>
-      <li>FCE English certification from Cambridge  on September 2019</li>
-      <li>Self Driving Car Engineer nanodegree from Udacity on Janary 2021.</li>
-      <li>N5 Japanese certification on December 2021.</li>
-    </ul>
-
-    <hr size="3">
-
-    <h3>My Work experience</h3>
-    <table border="2">
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>15/04/2017-15/08/2017</td>
-          <td>Technician Manager assistant in Tecnividrio 2000 S.A.</td>
-        </tr>
-        <tr>
-          <td>15/08/2017-15/10/2017</td>
-          <td>Projects technical assistant in MundyHome Munme CIA. LTDA.</td>
-        </tr>
-        <tr>
-          <td>08/04/2021-01/11/2021</td>
-          <td>Production assistant in Tecnividrio 2000 S.A.</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <hr size="3">
-
-    <h3>My Skills</h3>
-    <table cellspacing="5">
-      <tr>
-        <td>
-          <table cellspacing="5">
-            <tr>
-              <td>Arduino</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>PLCs</td>
-              <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Raspberry Pi 3</td>
-              <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>SolidWorks</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-
-          </table>
-        </td>
-        <td>
-          <table>
-            <tr>
-              <td>C++</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Python 3</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>ROS</td>
-              <td>⭐</td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-
-    <hr size="3">
-
-    <h3>My hobbies</h3>
-    <ol>
-      <li>Piano and guitar playing</li>
-      <li>Parkour and calisthenics</li>
-      <li>DYI projects</li>
-    </ol>
-    <p>
-      Here is my <a href="my_contact_info.html">Personal contact information</a> if you want to reach me.
-    </p>
+        <a class="btn" href="mailto:epilefrojasleon@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
 
 
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.instagram.com/felipezerokun/">Instagram</a>
+      <a class="footer-link" href="https://www.linkedin.com/in/felipe-rojas-17479a198/">LinkedIn</a>
+      <a class="footer-link" href="https://github.com/FelipeZerokun">Github</a><br><br> <hr>
+
+      <a href="https://www.flaticon.com/free-icons/ai" title="AI icons">AI icons created by photo3idea_studio - Flaticon</a><br>
+      <a href="https://www.flaticon.com/free-icons/wolf" title="wolf icons">Wolf icons created by Andy Horvath - Flaticon</a><br>
+      <a href="https://www.flaticon.com/free-icons/robot" title="robot icons">Robot icons created by Freepik - Flaticon</a>
+
+      <p>© 2022 Felipe Rojas.</p>
+    </div>
   </body>
 </html>
