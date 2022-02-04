@@ -39,6 +39,14 @@ h3 {
   right: 25px;
 }
 
+.button-container{
+  height: 25px;
+  width: 250px;
+  background-color: #D3E0EA;;
+  position: absolute;
+  left: 25px;
+}
+
 .top-container {
   background-color: #D3E0EA;
   height: 40rem;
