@@ -84,15 +84,15 @@ h3 {
 
 }
 
+.ai-icon {
+  width: 25%;
+  float: left;
+}
+
 .car-icon {
   width: 10%;
   float: right;
   margin-right: 30px;
-}
-
-.ai-icon {
-  width: 25%;
-  float: left;
 }
 
 .my-career {
