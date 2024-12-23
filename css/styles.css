@@ -84,15 +84,15 @@ h3 {
 
 }
 
-.robot-icon {
+.car-icon {
   width: 25%;
-  float: left;
+  float: right;
   margin-right: 30px;
 }
 
 .ai-icon {
   width: 25%;
-  float: right;
+  float: left;
 }
 
 .my-career {
