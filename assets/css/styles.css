@@ -582,6 +582,8 @@ p {
   color: var(--color-primary);
   font-size: 0.9rem;
   font-weight: 700;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
 }
 
 
@@ -696,7 +698,52 @@ button:focus-visible {
 
 
 /* =========================================================
-   14. Tablet layout
+   14. Additional shared page formatting
+   ========================================================= */
+
+section[id] {
+  scroll-margin-top: 95px;
+}
+
+.career-card ul {
+  margin: 1rem 0 0;
+  padding-left: 1.25rem;
+
+  color: var(--color-text-secondary);
+}
+
+.career-card li {
+  padding-left: 0.25rem;
+}
+
+.career-card li + li {
+  margin-top: 0.5rem;
+}
+
+.career-card li::marker {
+  color: var(--color-primary);
+}
+
+.career-card strong,
+.project-card strong {
+  color: var(--color-heading);
+  font-weight: 600;
+}
+
+.career-grid + .section-heading,
+.projects-grid + .section-heading,
+.expertise-grid + .section-heading,
+.section-action + .section-heading {
+  margin-top: 5rem;
+}
+
+.contact-actions .button {
+  text-align: center;
+}
+
+
+/* =========================================================
+   15. Tablet layout
    ========================================================= */
 
 @media (max-width: 980px) {
@@ -745,9 +792,27 @@ button:focus-visible {
   }
 }
 
+/* =========================================================
+   Consistent card contrast
+   ========================================================= */
+
+/* Cards placed on light-gray sections become white. */
+.expertise-section .career-card,
+.projects-section .career-card {
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-small);
+}
+
+/* Cards placed on white sections become light gray. */
+.career-section .expertise-card,
+.career-section .project-card {
+  background-color: var(--color-background);
+  box-shadow: none;
+}
+
 
 /* =========================================================
-   15. Mobile layout
+   16. Mobile layout
    ========================================================= */
 
 @media (max-width: 700px) {
@@ -810,6 +875,17 @@ button:focus-visible {
     margin-bottom: 2rem;
   }
 
+  section[id] {
+    scroll-margin-top: 1rem;
+  }
+
+  .career-grid + .section-heading,
+  .projects-grid + .section-heading,
+  .expertise-grid + .section-heading,
+  .section-action + .section-heading {
+    margin-top: 3.5rem;
+  }
+
   .about-grid {
     grid-template-columns: 1fr;
     gap: 3rem;
@@ -864,7 +940,7 @@ button:focus-visible {
 
 
 /* =========================================================
-   16. Reduced motion preference
+   17. Reduced motion preference
    ========================================================= */
 
 @media (prefers-reduced-motion: reduce) {
