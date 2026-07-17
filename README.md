@@ -14,8 +14,6 @@ The portfolio is available in three languages:
 
 [Visit the portfolio website](https://felipezerokun.github.io/CV/index.html)
 
-Replace `YOUR-GITHUB-PAGES-URL` with the final GitHub Pages address after publishing the website.
-
 ## About Me
 
 I am a Mechatronics Engineer from Ecuador with an M.Eng. in **Artificial Intelligence for Smart Sensors and Actuators** from Technische Hochschule Deggendorf in Germany.
