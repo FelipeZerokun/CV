@@ -1,1127 +1,1305 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-
-  <meta
-    name="description"
-    content="Selected robotics, artificial intelligence, autonomous systems, embedded systems and mechatronics projects by Felipe Rojas."
-  >
-
-  <meta name="author" content="Felipe Rojas">
-
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Engineering projects by Felipe Rojas in autonomous driving, robotics, ROS2, artificial intelligence, computer vision, embedded systems, automotive CAN/DBC test automation and mechatronic system design." name="description"/>
+  <meta content="Felipe Rojas" name="author"/>
   <title>
-    Projects | Felipe Rojas
+   Projects | Felipe Rojas
   </title>
-
-  <link
-    rel="icon"
-    type="image/png"
-    href="assets/images/wolf_icon.png"
-  >
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-
-  <link
-    rel="preconnect"
-    href="https://fonts.gstatic.com"
-    crossorigin
-  >
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  >
-
-  <link
-    rel="stylesheet"
-    href="assets/css/styles.css"
-  >
-</head>
-
-<body>
-
+  <link href="assets/images/wolf_icon.png" rel="icon" type="image/png"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="assets/css/styles.css" rel="stylesheet"/>
+  <link href="assets/css/project-media-v4.css" rel="stylesheet"/>
+  <!-- Project images are stored in assets/images. Gallery styles are in assets/css/project-media-v2.css. -->
+ </head>
+ <body>
   <a class="skip-link" href="#main-content">
-    Skip to main content
+   Skip to main content
   </a>
-
   <header class="site-header">
-    <nav class="navbar container" aria-label="Main navigation">
-
-      <a class="site-logo" href="index.html">
-        Felipe Rojas
-      </a>
-
-      <div class="navigation-links">
-        <a href="index.html">Home</a>
-        <a href="#featured">Featured</a>
-        <a href="#robotics">Robotics</a>
-        <a href="#ai">AI and Vision</a>
-        <a href="#embedded">Embedded Systems</a>
-        <a href="#bachelor">Bachelor Projects</a>
-      </div>
-
-      <div
-        class="language-switcher"
-        aria-label="Language selection"
-      >
-        <a
-          href="projects.html"
-          lang="en"
-          hreflang="en"
-          aria-current="page"
-        >
-          EN
-        </a>
-
-        <a
-          href="projects_de.html"
-          lang="de"
-          hreflang="de"
-        >
-          DE
-        </a>
-
-        <a
-          href="projects_esp.html"
-          lang="es"
-          hreflang="es"
-        >
-          ES
-        </a>
-      </div>
-
-    </nav>
+   <nav aria-label="Main navigation" class="navbar container">
+    <a class="site-logo" href="index.html">
+     Felipe Rojas
+    </a>
+    <div class="navigation-links">
+     <a href="#overview">
+      Overview
+     </a>
+     <a href="#featured">
+      Featured
+     </a>
+     <a href="#autonomous-driving">
+      Autonomous Driving
+     </a>
+     <a href="#robotics-ai">
+      Robotics and AI
+     </a>
+     <a href="#embedded">
+      Embedded
+     </a>
+     <a href="#bachelor">
+      Bachelor Projects
+     </a>
+    </div>
+    <div aria-label="Language selection" class="language-switcher">
+     <a aria-current="page" href="projects.html" hreflang="en" lang="en">
+      EN
+     </a>
+     <a href="projects_de.html" hreflang="de" lang="de">
+      DE
+     </a>
+     <a href="projects_esp.html" hreflang="es" lang="es">
+      ES
+     </a>
+    </div>
+   </nav>
   </header>
-
   <main id="main-content">
-
-    <!-- =====================================================
+   <!-- =====================================================
          Hero
          ===================================================== -->
-
-    <section class="hero">
-      <div class="container hero-content">
-
-        <p class="hero-eyebrow">
-          Robotics · Artificial Intelligence · Embedded Systems
-        </p>
-
-        <h1>
-          Projects
-        </h1>
-
-        <p class="hero-title">
-          Selected work in autonomous systems, computer vision,
-          robotics and mechatronic engineering
-        </p>
-
-        <p class="hero-description">
-          My projects reflect the development of my technical
-          profile: from early mechatronic systems and embedded
-          control to ROS-based robotics, artificial intelligence
-          and human-aware autonomous navigation.
-        </p>
-
-        <div class="hero-actions">
-
-          <a
-            class="button button-primary"
-            href="#featured"
-          >
-            View featured project
-          </a>
-
-          <a
-            class="button button-secondary"
-            href="https://github.com/FelipeZerokun"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Visit GitHub
-          </a>
-
-          <a
-            class="button button-text"
-            href="index.html"
-          >
-            Return to homepage
-          </a>
-
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- =====================================================
-         Project overview
+   <section class="hero">
+    <div class="container hero-content">
+     <p class="hero-eyebrow">
+      Autonomous Driving &middot; Robotics &middot; AI &middot; Mechatronics
+     </p>
+     <h1>
+      Projects
+     </h1>
+     <p class="hero-title">
+      Engineering projects developed from Bachelor-level
+          mechatronics to autonomous-systems research
+     </p>
+     <p class="hero-description">
+      My project path spans mechatronic design, industrial
+          automation, embedded control, autonomous-driving software,
+          computer vision, ROS-based robotics and human-centered
+          decision making for autonomous systems.
+     </p>
+     <div class="hero-actions">
+      <a class="button button-primary" href="#featured">
+       View featured projects
+      </a>
+      <a class="button button-secondary" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank">
+       Visit GitHub
+      </a>
+      <a class="button button-text" href="index.html">
+       Return to homepage
+      </a>
+     </div>
+    </div>
+   </section>
+   <!-- =====================================================
+         Overview
+         Gray background / white cards
          ===================================================== -->
-
-    <section class="section expertise-section">
-      <div class="container">
-
-        <div class="section-heading">
-
-          <p class="section-label">
-            Technical portfolio
-          </p>
-
-          <h2>
-            Project areas
-          </h2>
-
-          <p>
-            The portfolio combines academic research, practical
-            case studies, simulation, software development and
-            interdisciplinary system design.
-          </p>
-
-        </div>
-
-        <div class="expertise-grid">
-
-          <article class="expertise-card">
-
-            <h3>
-              Autonomous Robotics
-            </h3>
-
-            <p>
-              ROS, TurtleBot3, Gazebo, localization, mapping,
-              navigation, path planning and robotic system
-              integration.
-            </p>
-
-          </article>
-
-          <article class="expertise-card">
-
-            <h3>
-              Artificial Intelligence
-            </h3>
-
-            <p>
-              Deep learning, computer vision, natural-language
-              processing, action recognition and temporal
-              prediction.
-            </p>
-
-          </article>
-
-          <article class="expertise-card">
-
-            <h3>
-              Embedded Systems
-            </h3>
-
-            <p>
-              Arduino, ESP32, sensors, actuators, PID control,
-              GNSS, mobile communication and data acquisition.
-            </p>
-
-          </article>
-
-          <article class="expertise-card">
-
-            <h3>
-              Mechatronic Design
-            </h3>
-
-            <p>
-              SolidWorks, FluidSIM, pneumatics, requirements,
-              system architecture, component selection and
-              technical feasibility.
-            </p>
-
-          </article>
-
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- =====================================================
-         Featured project: Master thesis
+   <section class="section expertise-section" id="overview">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Technical portfolio
+      </p>
+      <h2>
+       A project path across complete engineering systems
+      </h2>
+      <p>
+       The projects range from physical automation and embedded
+            prototypes to perception, planning, research software and
+            simulated robotic systems.
+      </p>
+      <p class="project-media-note">
+       Selected images provide a concise visual overview. Each image can be opened at full resolution, while the linked GitHub repositories contain the deeper technical documentation.
+      </p>
+     </div>
+     <div class="expertise-grid">
+      <article class="expertise-card">
+       <h3>
+        Autonomous Driving
+       </h3>
+       <p>
+        Computer vision, sensor fusion, localization, path
+              planning, behavior planning, trajectory generation,
+              control and ROS-based system integration.
+       </p>
+      </article>
+      <article class="expertise-card">
+       <h3>
+        Robotics and Research Software
+       </h3>
+       <p>
+        ROS/ROS2, TurtleBot3, Gazebo, Graph-SLAM interfaces,
+              robotic manipulation, simulation, testing and CI/CD
+              workflows.
+       </p>
+      </article>
+      <article class="expertise-card">
+       <h3>
+        AI and Computer Vision
+       </h3>
+       <p>
+        CNNs, OpenCV, action recognition, intention prediction,
+              OCR, BERT, classification and visual inspection.
+       </p>
+      </article>
+      <article class="expertise-card">
+       <h3>
+        Embedded and Mechatronic Systems
+       </h3>
+       <p>
+        Arduino, ESP32, PID control, GNSS, LTE-M, CAN/DBC, PLCs, pneumatics, Stateflow, SolidWorks and LabVIEW.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <!-- =====================================================
+         Featured projects
+         White background / gray cards
          ===================================================== -->
-
-    <section class="section career-section" id="featured">
-      <div class="container">
-
-        <div class="section-heading">
-
-          <p class="section-label">
-            Featured project · Master’s thesis
-          </p>
-
-          <h2>
-            Pedestrian Detection, Tracking and Intention Prediction
-          </h2>
-
-          <p>
-            Risk-aware navigation support for an autonomous
-            grocery delivery robot operating in environments
-            shared with pedestrians.
-          </p>
-
-        </div>
-
-        <div class="career-grid">
-
-          <article class="career-card">
-
-            <p class="career-type">
-              Problem and objective
-            </p>
-
-            <h3>
-              Safer Navigation Around Pedestrians
-            </h3>
-
-            <p>
-              Autonomous delivery robots operate close to people
-              and must react safely to changing pedestrian
+   <!-- Temporary GitHub links point to the FelipeZerokun profile. Replace each href marked data-repository-placeholder with the direct repository URL. -->
+   <section class="section career-section" id="featured">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Featured research project &middot; August 2024&ndash;February 2025
+      </p>
+      <h2>
+       Intention Recognition of Vulnerable Road Users in the
+            Frame of Human-Centered Decision Making for Autonomous
+            Driving
+      </h2>
+      <p>
+       Master&rsquo;s thesis on pedestrian perception and short-term
+            intention prediction for safer decision support in an
+            autonomous delivery-robot scenario.
+      </p>
+     </div>
+     <div class="career-grid">
+      <article class="career-card">
+       <p class="career-type">
+        Problem and objective
+       </p>
+       <h3>
+        Human-Centered Autonomous Decision Making
+       </h3>
+       <p>
+        Autonomous delivery robots operate close to vulnerable
+              road users and must react safely to changes in pedestrian
               behavior.
-            </p>
-
-            <p>
-              The objective was to develop a perception and
-              prediction pipeline that could detect pedestrians,
-              understand their current activity and estimate
-              whether their movement state was likely to change
-              within the next few seconds.
-            </p>
-
-          </article>
-
-          <article class="career-card">
-
-            <p class="career-type">
-              Input data
-            </p>
-
-            <h3>
-              Robot and Environment Data
-            </h3>
-
-            <ul>
-              <li>
-                Depth-camera data
-              </li>
-
-              <li>
-                GPS data
-              </li>
-
-              <li>
-                Robot odometry
-              </li>
-
-              <li>
-                Pedestrian position and motion information
-              </li>
-
-              <li>
-                Temporal sequences of pedestrian behavior
-              </li>
-            </ul>
-
-          </article>
-
-          <article class="career-card">
-
-            <p class="career-type">
-              Pipeline stage 1
-            </p>
-
-            <h3>
-              Pedestrian Detection and Tracking
-            </h3>
-
-            <p>
-              The first stage detected pedestrians near the robot
-              and tracked them while they remained inside the
-              relevant operating area.
-            </p>
-
-            <p>
-              This created the spatial and temporal information
-              required by the later action-recognition and
-              intention-prediction stages.
-            </p>
-
-          </article>
-
-          <article class="career-card">
-
-            <p class="career-type">
-              Pipeline stage 2
-            </p>
-
-            <h3>
-              Action Recognition with I3D
-            </h3>
-
-            <p>
-              An Inflated 3D neural-network model was used to
-              classify the pedestrian’s current action state.
-            </p>
-
-            <ul>
-              <li>
-                Standing still
-              </li>
-
-              <li>
-                Walking or moving
-              </li>
-            </ul>
-
-            <p>
-              This stage classified current behavior; it was
-              separate from the prediction of future intention.
-            </p>
-
-          </article>
-
-          <article class="career-card">
-
-            <p class="career-type">
-              Pipeline stage 3
-            </p>
-
-            <h3>
-              Intention Prediction with LSTM and MLP
-            </h3>
-
-            <p>
-              An LSTM model processed temporal behavior and motion
-              information to estimate whether a pedestrian was
-              likely to change their current action state.
-            </p>
-
-            <p>
-              A final multilayer perceptron layer produced a
-              probability estimate for the predicted state change.
-            </p>
-
-          </article>
-
-          <article class="career-card">
-
-            <p class="career-type">
-              Intended application
-            </p>
-
-            <h3>
-              Risk-Aware Path-Planning Support
-            </h3>
-
-            <p>
-              The predicted behavior could help the robot identify
-              pedestrians who may soon become relevant obstacles
-              and support more anticipatory navigation decisions.
-            </p>
-
-            <p>
-              The project connected perception, deep learning,
-              temporal prediction and human-aware mobile robotics.
-            </p>
-
-          </article>
-
-        </div>
-
-        <div class="section-action">
-          <p class="technology-list">
-            Depth Camera · GPS · Odometry · I3D · LSTM · MLP ·
-            Deep Learning · Human-Robot Interaction
-          </p>
-        </div>
-
+       </p>
+       <p>
+        I developed a perception and prediction pipeline that
+              detected and tracked pedestrians, classified their
+              current action and estimated whether their movement
+              state was likely to change.
+       </p>
+      </article>
+      <article class="career-card">
+       <p class="career-type">
+        Perception pipeline
+       </p>
+       <h3>
+        Detection, Tracking and Sensor Data
+       </h3>
+       <ul>
+        <li>
+         Pedestrian detection and tracking
+        </li>
+        <li>
+         Depth-camera data
+        </li>
+        <li>
+         GPS and robot odometry
+        </li>
+        <li>
+         Spatial and temporal pedestrian information
+        </li>
+        <li>
+         Data preparation for action and intention models
+        </li>
+       </ul>
+      </article>
+      <article class="career-card">
+       <p class="career-type">
+        Deep-learning models
+       </p>
+       <h3>
+        I3D, LSTM and MLP
+       </h3>
+       <ul>
+        <li>
+         I3D for current-action recognition
+        </li>
+        <li>
+         Classification of standing and moving states
+        </li>
+        <li>
+         LSTM for temporal prediction of state changes
+        </li>
+        <li>
+         MLP layer for intention-probability estimation
+        </li>
+        <li>
+         Separation of current action from future intention
+        </li>
+       </ul>
+      </article>
+      <article class="career-card">
+       <p class="career-type">
+        Application and milestones
+       </p>
+       <h3>
+        Risk-Aware Navigation Support
+       </h3>
+       <p>
+        The predicted behavior was intended to support more
+              anticipatory and risk-aware path-planning decisions
+              around pedestrians.
+       </p>
+       <ul>
+        <li>
+         First presentation at THD Campus Cham: April 2025
+        </li>
+        <li>
+         Final presentation and delivery of code and results:
+                June 2025
+        </li>
+       </ul>
+      </article>
+     </div>
+     <div class="project-gallery project-gallery--thesis">
+      <div class="project-gallery__heading">
+       <p class="section-label">
+        Visual project evidence
+       </p>
+       <h3>
+        Perception and intention-prediction results
+       </h3>
+       <p>
+        The images show the delivery-robot application context, the depth-based pedestrian-perception stage and a temporal example in which the probability of a walking pedestrian changing state increases before the current-action classifier fully changes its decision.
+       </p>
       </div>
-    </section>
-
-
-    <!-- =====================================================
-         Autonomous robotics
+      <div class="project-media-grid">
+       <figure class="project-media project-media--wide">
+        <a aria-label="Open full-size image: Temporal intention-prediction example: the probability that the walking pedestrian will change state rises before the current-action classification changes." class="project-media__link" href="assets/images/thesis_intention_prediction_sequence.png" rel="noopener noreferrer" target="_blank">
+         <img alt="Three-frame sequence showing tracked pedestrians, current action classifications and changing-state probabilities" class="project-media__image" decoding="async" height="526" loading="lazy" src="assets/images/thesis_intention_prediction_sequence.png" width="2800"/>
+        </a>
+        <figcaption class="project-media__caption">
+         Temporal intention-prediction example: the probability that the walking pedestrian will change state rises before the current-action classification changes.
+        </figcaption>
+       </figure>
+       <figure class="project-media">
+        <a aria-label="Open full-size image: Pedestrian detection and distance estimation using aligned RGB and depth-camera data." class="project-media__link" href="assets/images/thesis_pedestrian_distance_estimation.png" rel="noopener noreferrer" target="_blank">
+         <img alt="RGB pedestrian detections combined with a depth colormap and distance estimates" class="project-media__image" decoding="async" height="1014" loading="lazy" src="assets/images/thesis_pedestrian_distance_estimation.png" width="1240"/>
+        </a>
+        <figcaption class="project-media__caption">
+         Pedestrian detection and distance estimation using aligned RGB and depth-camera data.
+        </figcaption>
+       </figure>
+       <figure class="project-media">
+        <a aria-label="Open full-size image: Delivery-robot platform that motivated the thesis scenario. The final thesis models were not deployed on the robot." class="project-media__link" href="assets/images/thesis_delivery_robot.png" rel="noopener noreferrer" target="_blank">
+         <img alt="Autonomous delivery robot platform used as the application context for the thesis" class="project-media__image" decoding="async" height="351" loading="lazy" src="assets/images/thesis_delivery_robot.png" width="417"/>
+        </a>
+        <figcaption class="project-media__caption">
+         Delivery-robot platform that motivated the thesis scenario. The final thesis models were not deployed on the robot.
+        </figcaption>
+       </figure>
+      </div>
+     </div>
+     <div class="section-action">
+      <p class="technology-list">
+       Depth Camera &middot; GPS &middot; Odometry &middot; I3D &middot; LSTM &middot; MLP &middot;
+            Deep Learning &middot; Human-Robot Interaction
+      </p>
+     </div>
+     <div class="section-action section-action-group">
+      <p class="project-repository">
+       <a aria-label="View the Master&rsquo;s thesis project on GitHub" class="button button-text" data-repository-placeholder="replace-with-direct-repository-url" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank" title="Replace this profile URL with the direct project repository URL">
+        View thesis project on GitHub
+       </a>
+      </p>
+     </div>
+     <!-- CoDIT project -->
+     <div class="section-heading">
+      <p class="section-label">
+       Featured robotics project &middot; March 2023&ndash;July 2023
+      </p>
+      <h2>
+       Case Study: Autonomous Mobile Robot Exploration and
+            Navigation in Unknown Maze Environment
+      </h2>
+      <p>
+       A group project developed during the ROS elective and
+            later improved into a peer-reviewed CoDIT 2024
+            publication.
+      </p>
+     </div>
+     <div class="career-grid">
+      <article class="career-card">
+       <p class="career-type">
+        Implementation
+       </p>
+       <h3>
+        Python, ROS and Gazebo
+       </h3>
+       <ul>
+        <li>
+         Implemented entirely in Python
+        </li>
+        <li>
+         Used ROS with a TurtleBot3 platform
+        </li>
+        <li>
+         Simulated the complete project in Gazebo
+        </li>
+        <li>
+         Addressed autonomous exploration and mapping
+        </li>
+        <li>
+         Implemented navigation in an initially unknown maze
+        </li>
+       </ul>
+      </article>
+      <article class="career-card">
+       <p class="career-type">
+        Result
+       </p>
+       <h3>
+        CoDIT 2024 Publication
+       </h3>
+       <p>
+        The original course project was further developed and
+              documented as a conference paper published through
+              IEEE Xplore.
+       </p>
+       <p>
+        The work strengthened my experience in collaborative
+              robotics development, simulation and technical
+              publication.
+       </p>
+      </article>
+     </div>
+     <div class="project-gallery project-gallery--turtlebot">
+      <div class="project-gallery__heading">
+       <p class="section-label">
+        Simulation and planning results
+       </p>
+       <h3>
+        From local decisions to global maze navigation
+       </h3>
+       <p>
+        The project combined ROS-based simulation and occupancy-map generation with global Wavefront planning and local movement decisions.
+       </p>
+      </div>
+      <div class="project-media-grid">
+       <figure class="project-media">
+        <a aria-label="Open full-size image: TurtleBot3 maze environment in Gazebo and the corresponding occupancy map generated in RViz." class="project-media__link" href="assets/images/turtlebot_maze_gazebo_rviz.png" rel="noopener noreferrer" target="_blank">
+         <img alt="TurtleBot3 maze simulation in Gazebo with the generated occupancy map displayed in RViz" class="project-media__image" decoding="async" height="539" loading="lazy" src="assets/images/turtlebot_maze_gazebo_rviz.png" width="294"/>
+        </a>
+        <figcaption class="project-media__caption">
+         TurtleBot3 maze environment in Gazebo and the corresponding occupancy map generated in RViz.
+        </figcaption>
+       </figure>
+       <figure class="project-media">
+        <a aria-label="Open full-size image: Global Wavefront path planning and local movement-direction evaluation for the TurtleBot3 maze project." class="project-media__link" href="assets/images/turtlebot_maze_planning_logic.png" rel="noopener noreferrer" target="_blank">
+         <img alt="Combined visualization of Wavefront global path planning and local movement-direction evaluation using simulated laser-scan data and occupancy-grid gradients" class="project-media__image" decoding="async" loading="lazy" src="assets/images/turtlebot_maze_planning_logic.png"/>
+        </a>
+        <figcaption class="project-media__caption">
+         Global Wavefront path planning and local movement-direction evaluation using simulated laser-scan data and occupancy-grid gradients.
+        </figcaption>
+       </figure>
+      </div>
+     </div>
+     <div class="section-action section-action-group">
+      <a class="button button-primary" href="https://ieeexplore.ieee.org/document/10708242" rel="noopener noreferrer" target="_blank">
+       View paper on IEEE Xplore
+      </a>
+      <a class="button button-secondary" href="education.html#publication">
+       View publication details
+      </a>
+      <a aria-label="View the autonomous mobile robot maze project on GitHub" class="button button-text" data-repository-placeholder="replace-with-direct-repository-url" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank" title="Replace this profile URL with the direct project repository URL">
+       View maze project on GitHub
+      </a>
+     </div>
+     <!-- ModuSLAM -->
+     <div class="section-heading">
+      <p class="section-label">
+       Featured research-software contribution &middot; April 2024&ndash;September 2024
+      </p>
+      <h2>
+       ROS2 Data Reader for the ModuSLAM Framework
+      </h2>
+      <p>
+       International research collaboration supporting a
+            modular Graph-SLAM framework developed by multiple
+            researchers and students.
+      </p>
+     </div>
+     <div class="career-grid">
+      <article class="career-card">
+       <p class="career-type">
+        Personal contribution
+       </p>
+       <h3>
+        ROS2 Data Interface
+       </h3>
+       <ul>
+        <li>
+         Developed a ROS2 data reader in Python
+        </li>
+        <li>
+         Converted ROS2 data into the format required by
+                the main SLAM pipeline
+        </li>
+        <li>
+         Learned the Graph-SLAM fundamentals needed to
+                understand the interface requirements
+        </li>
+        <li>
+         Worked with a researcher from Skoltech in an
+                international collaboration
+        </li>
+       </ul>
+      </article>
+      <article class="career-card">
+       <p class="career-type">
+        Software-engineering workflow
+       </p>
+       <h3>
+        Testing, Quality and CI/CD
+       </h3>
+       <ul>
+        <li>
+         Pytest for automated tests
+        </li>
+        <li>
+         Black for code formatting
+        </li>
+        <li>
+         Poetry for dependency and project management
+        </li>
+        <li>
+         Hydra for modular configuration
+        </li>
+        <li>
+         GitHub branches, integration testing and CI/CD
+        </li>
+       </ul>
+      </article>
+     </div>
+     <div class="section-action">
+      <a class="button button-secondary" href="https://github.com/fatrybl/ModuSLAM" rel="noopener noreferrer" target="_blank">
+       View ModuSLAM repository
+      </a>
+     </div>
+    </div>
+   </section>
+   <!-- =====================================================
+         Autonomous driving
+         Gray background / white cards
          ===================================================== -->
-
-    <section class="section expertise-section" id="robotics">
-      <div class="container">
-
-        <div class="section-heading">
-
-          <p class="section-label">
-            Autonomous robotics
-          </p>
-
-          <h2>
-            ROS, mobile robots and robotic manipulation
-          </h2>
-
-          <p>
-            These projects focused on autonomous exploration,
-            navigation, perception, simulation and robotic
-            pick-and-place applications.
-          </p>
-
-        </div>
-
-        <div class="projects-grid">
-
-          <article class="project-card">
-
-            <p class="project-category">
-              ROS · Mobile Robotics · Publication
-            </p>
-
-            <h3>
-              Autonomous Mobile Robot Exploration and Navigation
-            </h3>
-
-            <p>
-              Developed a ROS-based TurtleBot3 project for
-              autonomous exploration and navigation in an
-              initially unknown maze environment.
-            </p>
-
-            <p>
-              The project addressed robotic exploration,
-              environment mapping and navigation and resulted in
-              the CoDIT 2024 conference publication:
-              <em>
-                Case Study: Autonomous Mobile Robot Exploration
-                and Navigation in Unknown Maze Environment
-              </em>.
-            </p>
-
-            <p class="technology-list">
-              ROS · TurtleBot3 · Mapping · Navigation · Gazebo
-            </p>
-
-          </article>
-
-          <article class="project-card">
-
-            <p class="project-category">
-              ROS · Manipulation · Computer Vision
-            </p>
-
-            <h3>
-              SCARA Pick-and-Place System
-            </h3>
-
-            <p>
-              Developed a simulated SCARA robotic system for
-              sorting spherical and cubical objects into their
-              corresponding containers.
-            </p>
-
-            <p>
-              The robot was modeled in SolidWorks and exported to
-              Gazebo. ROS and Python were used for system
-              integration, camera-based object identification and
-              trajectory calculation.
-            </p>
-
-            <p class="technology-list">
-              ROS · Python · Gazebo · SolidWorks · Vision
-            </p>
-
-          </article>
-
-          <article class="project-card">
-
-            <p class="project-category">
-              Autonomous Driving · Professional Education
-            </p>
-
-            <h3>
-              Self-Driving Car Project Work
-            </h3>
-
-            <p>
-              Completed project-based work during the Udacity
-              Self-Driving Car Engineer Nanodegree, strengthening
-              my understanding of autonomous-vehicle software and
-              system components.
-            </p>
-
-            <p>
-              The specialization covered perception, computer
-              vision, sensing, localization, vehicle control and
-              path-planning concepts.
-            </p>
-
-            <p class="technology-list">
-              Python · C++ · Vision · Localization · Control
-            </p>
-
-          </article>
-
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- =====================================================
-         AI and computer vision
+   <section class="section expertise-section" id="autonomous-driving">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Self-Driving Car Engineer Nanodegree &middot; July 2020&ndash;January 2021
+      </p>
+      <h2>
+       Autonomous-driving project portfolio
+      </h2>
+      <p>
+       The Udacity Nanodegree was my first structured
+            specialization in autonomous vehicles. I typically
+            completed one or two project submissions per month and
+            worked across perception, localization, planning and
+            control.
+      </p>
+     </div>
+     <div class="projects-grid">
+      <article class="project-card">
+       <p class="project-category">
+        Computer Vision
+       </p>
+       <h3>
+        Finding Lane Lines
+       </h3>
+       <p>
+        Developed a foundational computer-vision pipeline to
+              detect lane boundaries in road images and video using
+              image-processing techniques.
+       </p>
+       <p class="technology-list">
+        Python &middot; OpenCV &middot; Image Processing
+       </p>
+       <p class="project-repository">
+        <a aria-label="View project on GitHub: Finding Lane Lines" class="button button-text" data-repository-placeholder="replace-with-direct-repository-url" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank" title="Replace this profile URL with the direct project repository URL">
+         View project on GitHub
+        </a>
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Advanced Computer Vision
+       </p>
+       <h3>
+        Advanced Lane Finding
+       </h3>
+       <p>
+        Built a robust lane-detection system using camera
+              calibration, distortion correction, gradient and color
+              thresholding, perspective transforms and curvature
+              estimation.
+       </p>
+       <p class="technology-list">
+        Python &middot; OpenCV &middot; Calibration &middot; Perspective Transform
+       </p>
+       <p class="project-repository">
+        <a aria-label="View project on GitHub: Advanced Lane Finding" class="button button-text" data-repository-placeholder="replace-with-direct-repository-url" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank" title="Replace this profile URL with the direct project repository URL">
+         View project on GitHub
+        </a>
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Deep Learning
+       </p>
+       <h3>
+        Traffic Sign Classifier
+       </h3>
+       <p>
+        Trained and evaluated a convolutional neural network
+              to classify traffic signs from image datasets for
+              autonomous-driving perception.
+       </p>
+       <p class="technology-list">
+        Python &middot; TensorFlow &middot; Keras &middot; CNN
+       </p>
+       <p class="project-repository">
+        <a aria-label="View project on GitHub: Traffic Sign Classifier" class="button button-text" data-repository-placeholder="replace-with-direct-repository-url" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank" title="Replace this profile URL with the direct project repository URL">
+         View project on GitHub
+        </a>
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        End-to-End Learning
+       </p>
+       <h3>
+        Behavioral Cloning
+       </h3>
+       <p>
+        Created an end-to-end deep-learning model that
+              predicted steering commands directly from camera
+              images in a simulated driving environment.
+       </p>
+       <p class="technology-list">
+        Python &middot; TensorFlow &middot; Keras &middot; Computer Vision
+       </p>
+       <p class="project-repository">
+        <a aria-label="View project on GitHub: Behavioral Cloning" class="button button-text" data-repository-placeholder="replace-with-direct-repository-url" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank" title="Replace this profile URL with the direct project repository URL">
+         View project on GitHub
+        </a>
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Sensor Fusion
+       </p>
+       <h3>
+        Extended Kalman Filters
+       </h3>
+       <p>
+        Implemented radar and lidar sensor fusion with an
+              Extended Kalman Filter for nonlinear vehicle-state
+              estimation and motion tracking.
+       </p>
+       <p class="technology-list">
+        C++ &middot; Radar &middot; LiDAR &middot; EKF
+       </p>
+       <p class="project-repository">
+        <a aria-label="View project on GitHub: Extended Kalman Filters" class="button button-text" data-repository-placeholder="replace-with-direct-repository-url" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank" title="Replace this profile URL with the direct project repository URL">
+         View project on GitHub
+        </a>
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Localization
+       </p>
+       <h3>
+        Kidnapped Vehicle
+       </h3>
+       <p>
+        Applied a particle filter for probabilistic vehicle
+              localization using noisy observations and known map
+              landmarks.
+       </p>
+       <p class="technology-list">
+        C++ &middot; Particle Filter &middot; Probabilistic Localization
+       </p>
+       <p class="project-repository">
+        <a aria-label="View project on GitHub: Kidnapped Vehicle" class="button button-text" data-repository-placeholder="replace-with-direct-repository-url" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank" title="Replace this profile URL with the direct project repository URL">
+         View project on GitHub
+        </a>
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Planning
+       </p>
+       <h3>
+        Highway Driving
+       </h3>
+       <p>
+        Designed a highway path-planning system with lane
+              keeping, safe lane changes, speed regulation and
+              collision avoidance.
+       </p>
+       <p class="technology-list">
+        C++ &middot; Path Planning &middot; Trajectory Generation
+       </p>
+       <p class="project-repository">
+        <a aria-label="View project on GitHub: Highway Driving" class="button button-text" data-repository-placeholder="replace-with-direct-repository-url" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank" title="Replace this profile URL with the direct project repository URL">
+         View project on GitHub
+        </a>
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Vehicle Control
+       </p>
+       <h3>
+        PID Controller
+       </h3>
+       <p>
+        Tuned a PID-based steering controller to minimize
+              cross-track error and improve vehicle stability in
+              simulation.
+       </p>
+       <p class="technology-list">
+        C++ &middot; PID Control &middot; Vehicle Dynamics
+       </p>
+       <p class="project-repository">
+        <a aria-label="View project on GitHub: PID Controller" class="button button-text" data-repository-placeholder="replace-with-direct-repository-url" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank" title="Replace this profile URL with the direct project repository URL">
+         View project on GitHub
+        </a>
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Final International Team Project
+       </p>
+       <h3>
+        Programming a Real Self-Driving Car
+       </h3>
+       <p>
+        Worked with three engineers from different countries
+              to integrate perception, planning and control
+              components into a ROS-based autonomous-vehicle
+              software stack.
+       </p>
+       <p class="technology-list">
+        ROS &middot; Python &middot; Perception &middot; Planning &middot; Control
+       </p>
+       <p class="project-repository">
+        <a aria-label="View project on GitHub: Programming a Real Self-Driving Car" class="button button-text" data-repository-placeholder="replace-with-direct-repository-url" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank" title="Replace this profile URL with the direct project repository URL">
+         View project on GitHub
+        </a>
+       </p>
+      </article>
+     </div>
+     <div class="section-action">
+      <a class="button button-secondary" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank">
+       View projects on GitHub
+      </a>
+     </div>
+    </div>
+   </section>
+   <!-- =====================================================
+         Robotics and AI
+         White background / gray cards
          ===================================================== -->
-
-    <section class="section career-section" id="ai">
-      <div class="container">
-
-        <div class="section-heading">
-
-          <p class="section-label">
-            Artificial intelligence and computer vision
-          </p>
-
-          <h2>
-            Classification, visual inspection and data processing
-          </h2>
-
-          <p>
-            These projects applied machine learning and computer
-            vision to text classification, industrial inspection
-            and intelligent data analysis.
-          </p>
-
-        </div>
-
-        <div class="projects-grid">
-
-          <article class="project-card">
-
-            <p class="project-category">
-              NLP · Machine Learning · Desktop Application
-            </p>
-
-            <h3>
-              German Newspaper Article Classification
-            </h3>
-
-            <p>
-              Developed a system for classifying German newspaper
-              articles into categories such as sports, politics,
-              economy and environment.
-            </p>
-
-            <p>
-              The system supported PDF text extraction and OCR and
-              allowed classification using Random Forest, CNN,
-              German BERT or a combination of models.
-            </p>
-
-            <p>
-              A Tkinter interface allowed users to select the PDF
-              file and the desired classification model.
-            </p>
-
-            <p class="technology-list">
-              Python · OCR · Random Forest · CNN · BERT · Tkinter
-            </p>
-
-          </article>
-
-          <article class="project-card">
-
-            <p class="project-category">
-              Computer Vision · Industrial Inspection
-            </p>
-
-            <h3>
-              Bottle-Crate Inspection System
-            </h3>
-
-            <p>
-              Developed a camera-based inspection concept for a
-              crate containing bottles.
-            </p>
-
-            <p>
-              The system distinguished between empty crate
-              positions, empty bottles and full bottles using
-              image-processing and classification methods.
-            </p>
-
-            <p class="technology-list">
-              Image Processing · CNN · YOLO · Feature Extraction
-            </p>
-
-          </article>
-
-          <article class="project-card">
-
-            <p class="project-category">
-              Big Data · Data Acquisition
-            </p>
-
-            <h3>
-              Raspberry Pi Data Pipeline
-            </h3>
-
-            <p>
-              Developed a small data-acquisition and storage
-              project using a Raspberry Pi together with Apache
-              Spark and MongoDB.
-            </p>
-
-            <p>
-              The project provided practical exposure to data
-              collection, distributed-data technologies and NoSQL
-              database storage.
-            </p>
-
-            <p class="technology-list">
-              Raspberry Pi · Apache Spark · MongoDB · Python
-            </p>
-
-          </article>
-
-        </div>
-
+   <section class="section expertise-section" id="current-development">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Personal development and current work
+      </p>
+      <h2>
+       Projects being documented and developed on GitHub
+      </h2>
+      <p>
+       This section highlights ongoing technical development and
+        project collections that support my programming and
+        automotive-engineering profile.
+      </p>
+     </div>
+     <div class="projects-grid">
+      <article class="project-card">
+       <p class="project-category">
+        Python Practice &middot; Project Collection
+       </p>
+       <h3>
+        100 Days of Python Projects
+       </h3>
+       <p>
+        A collection of smaller applications and exercises created
+          through a structured 100-day Python learning program.
+       </p>
+       <p>
+        The repositories document continuous practice with Python
+          fundamentals, scripting, problem solving and application
+          development.
+       </p>
+       <p class="technology-list">
+        Python &middot; Scripting &middot; Practice Projects &middot; Continuous Learning
+       </p>
+       <p class="project-repository">
+        <a aria-label="View the 100 Days of Python project collection on GitHub" class="button button-text" data-repository-placeholder="replace-with-direct-repository-url" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank" title="Replace this profile URL with the direct project collection URL">
+         View collection on GitHub
+        </a>
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Work in Progress &middot; Automotive Software
+       </p>
+       <h3>
+        Automotive CAN Bus and DBC Test Automation
+       </h3>
+       <p>
+        I am developing an open-source automotive communication
+          project to strengthen my practical knowledge of CAN,
+          DBC-based signal definitions and software-supported
+          verification.
+       </p>
+       <p>
+        Planned work includes virtual CAN communication,
+          message encoding and decoding, DBC parsing, signal
+          monitoring, automated test cases, logging and clear
+          technical documentation.
+       </p>
+       <p class="technology-list">
+        Work in Progress &middot; Python &middot; python-can &middot; cantools &middot;
+          DBC &middot; Pytest
+       </p>
+       <p class="project-repository">
+        <a aria-label="Follow the CAN bus and DBC test automation project on GitHub" class="button button-text" data-repository-placeholder="replace-with-direct-repository-url" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank" title="Replace this profile URL with the direct CAN project repository URL">
+         Follow development on GitHub
+        </a>
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section career-section" id="robotics-ai">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Master&rsquo;s case studies &middot; March 2023&ndash;July 2023
+      </p>
+      <h2>
+       Robotics, computer vision and intelligent systems
+      </h2>
+      <p>
+       These team projects combined simulation, perception,
+            machine learning and user-facing software.
+      </p>
+     </div>
+     <div class="projects-grid">
+      <article class="project-card">
+       <p class="project-category">
+        Autonomous Robotics &middot; Team Project
+       </p>
+       <h3>
+        Sorting Robot Using an Articulated or SCARA Configuration
+       </h3>
+       <p>
+        Developed a SCARA-based system for sorting spherical
+              and cubical objects. The team selected the SCARA
+              configuration because it was simpler to model in
+              SolidWorks and export into Gazebo.
+       </p>
+       <p>
+        The robot was implemented entirely in Python, with XML
+              used for robot-model elements, camera-based object
+              recognition and trajectory calculation.
+       </p>
+       <p class="technology-list">
+        Python &middot; XML &middot; SolidWorks &middot; Gazebo &middot; Computer Vision
+       </p>
+       <p class="project-repository">
+        <a aria-label="View project on GitHub: Sorting Robot Using an Articulated or SCARA Configuration" class="button button-text" data-repository-placeholder="replace-with-direct-repository-url" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank" title="Replace this profile URL with the direct project repository URL">
+         View project on GitHub
+        </a>
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Computer Vision &middot; CNN &middot; Team Project
+       </p>
+       <h3>
+        Bottle-Crate Inspection Mini-Project
+       </h3>
+       <p>
+        Built a Python computer-vision system for common German
+              beverage crates. A team-trained CNN classified each
+              crate position as a full bottle, an empty bottle or an
+              empty space.
+       </p>
+       <p>
+        I applied camera-calibration and image-processing
+              knowledge developed during the Self-Driving Car
+              Nanodegree.
+       </p>
+       <p class="technology-list">
+        Python &middot; OpenCV &middot; CNN &middot; Camera Calibration
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        NLP &middot; International Team Project
+       </p>
+       <h3>
+        Case Study: Demonstrator for Text Classification
+       </h3>
+       <p>
+        Developed a demonstrator with three other students for
+              classifying German newspaper articles from PDF files.
+       </p>
+       <p>
+        The system combined PDF extraction, OCR, Random Forest,
+              CNN and pretrained German BERT, with a Tkinter interface
+              for file and model selection. The project was later
+              extended into another student&rsquo;s Master&rsquo;s thesis.
+       </p>
+       <p class="technology-list">
+        Python &middot; OCR &middot; Random Forest &middot; CNN &middot; BERT &middot; Tkinter
+       </p>
+       <p class="project-repository">
+        <a aria-label="View project on GitHub: Case Study: Demonstrator for Text Classification" class="button button-text" data-repository-placeholder="replace-with-direct-repository-url" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank" title="Replace this profile URL with the direct project repository URL">
+         View project on GitHub
+        </a>
+       </p>
+      </article>
+     </div>
+     <div class="project-gallery project-gallery--scara">
+      <div class="project-gallery__heading">
+       <p class="section-label">
+        Design and simulation
+       </p>
+       <h3>
+        SCARA system development
+       </h3>
+       <p>
+        The images show the progression from the initial sorting-system concept to the integrated Gazebo simulation.
+       </p>
       </div>
-    </section>
-
-
-    <!-- =====================================================
+      <div class="project-media-grid">
+       <figure class="project-media">
+        <a aria-label="Open full-size image: Initial SCARA sorting-system concept showing the conveyor, camera, robot configuration, gripper and destination container." class="project-media__link" href="assets/images/scara_system_concept.png" rel="noopener noreferrer" target="_blank">
+         <img alt="Concept diagram of a SCARA robot sorting spherical and cubical objects from a conveyor" class="project-media__image" decoding="async" height="316" loading="lazy" src="assets/images/scara_system_concept.png" width="612"/>
+        </a>
+        <figcaption class="project-media__caption">
+         Initial SCARA sorting-system concept showing the conveyor, camera, robot configuration, gripper and destination container.
+        </figcaption>
+       </figure>
+       <figure class="project-media">
+        <a aria-label="Open full-size image: Integrated Gazebo simulation of the SCARA sorting system with conveyor workspace and RViz camera view for object perception." class="project-media__link" href="assets/images/scara_gazebo_simulation.png" rel="noopener noreferrer" target="_blank">
+         <img alt="SCARA sorting simulation in Gazebo with conveyor, objects and an RViz camera view" class="project-media__image" decoding="async" height="389" loading="lazy" src="assets/images/scara_gazebo_simulation.png" width="790"/>
+        </a>
+        <figcaption class="project-media__caption">
+         Integrated Gazebo simulation of the SCARA sorting system with conveyor workspace and RViz camera view for object perception.
+        </figcaption>
+       </figure>
+      </div>
+     </div>
+     <div class="project-gallery project-gallery--document-classifier">
+      <div class="project-gallery__heading">
+       <p class="section-label">
+        Application and evaluation
+       </p>
+       <h3>
+        Document-classification demonstrator
+       </h3>
+       <p>
+        The project combined a usable Tkinter application with quantitative comparison of three classification approaches.
+       </p>
+      </div>
+      <div class="project-media-grid">
+       <figure class="project-media">
+        <a aria-label="Open full-size image: Interface concept and final Tkinter implementation for PDF selection, model selection, classification, manual correction and export." class="project-media__link" href="assets/images/document_classifier_gui.png" rel="noopener noreferrer" target="_blank">
+         <img alt="Interface concept and final Tkinter application for classifying German newspaper articles from PDF documents" class="project-media__image" decoding="async" height="477" loading="lazy" src="assets/images/document_classifier_gui.png" width="1240"/>
+        </a>
+        <figcaption class="project-media__caption">
+         Interface concept and final Tkinter implementation for PDF selection, model selection, classification, manual correction and export.
+        </figcaption>
+       </figure>
+       <figure class="project-media">
+        <a aria-label="Open full-size image: Final model-performance comparison with confusion matrices for Random Forest, CNN and the pretrained German language model." class="project-media__link" href="assets/images/document_classifier_results.png" rel="noopener noreferrer" target="_blank">
+         <img alt="Accuracy results and confusion matrices comparing Random Forest, CNN and pretrained German language-model classifiers" class="project-media__image" decoding="async" height="527" loading="lazy" src="assets/images/document_classifier_results.png" width="1232"/>
+        </a>
+        <figcaption class="project-media__caption">
+         Final model-performance comparison with confusion matrices for Random Forest, CNN and the pretrained German language model.
+        </figcaption>
+       </figure>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- =====================================================
          Embedded systems and control
+         Gray background / white cards
          ===================================================== -->
-
-    <section class="section expertise-section" id="embedded">
-      <div class="container">
-
-        <div class="section-heading">
-
-          <p class="section-label">
-            Embedded systems and control
-          </p>
-
-          <h2>
-            Sensors, connectivity and control applications
-          </h2>
-
-          <p>
-            These projects combined microcontrollers, physical
-            sensors, communication modules and control
-            engineering.
-          </p>
-
-        </div>
-
-        <div class="projects-grid">
-
-          <article class="project-card">
-
-            <p class="project-category">
-              Sensors · IoT · Vehicle Application
-            </p>
-
-            <h3>
-              Road-Damage Vibration Detection System
-            </h3>
-
-            <p>
-              Developed an embedded system for detecting strong
-              vehicle vibrations associated with damaged road
-              surfaces.
-            </p>
-
-            <p>
-              When a relevant event was detected, the system
-              captured time and GNSS location information and sent
-              the data through an LTE-M connection to a central
-              server for later visualization and analysis.
-            </p>
-
-            <p class="technology-list">
-              Arduino UNO · ADXL337 · SIM7000 · GNSS · LTE-M
-            </p>
-
-          </article>
-
-          <article class="project-card">
-
-            <p class="project-category">
-              Control Engineering · Embedded Systems
-            </p>
-
-            <h3>
-              ESP32 DC Motor PID Control
-            </h3>
-
-            <p>
-              Implemented control of a DC motor using an ESP32 and
-              a PID controller.
-            </p>
-
-            <p>
-              The project was used to demonstrate different PID
-              tuning approaches and their influence on the
-              resulting control behavior.
-            </p>
-
-            <p class="technology-list">
-              ESP32 · PID Control · DC Motor · Embedded Control
-            </p>
-
-          </article>
-
-          <article class="project-card">
-
-            <p class="project-category">
-              Quality Assurance · LabVIEW
-            </p>
-
-            <h3>
-              Assembly Screw Verification Interface
-            </h3>
-
-            <p>
-              Supported the development and testing of a system
-              that verified the number and tightening of screws
-              during car-radio assembly.
-            </p>
-
-            <p>
-              Developed a LabVIEW graphical interface for
-              visualizing quality information and supporting the
-              assembly-verification process.
-            </p>
-
-            <p class="technology-list">
-              LabVIEW · Quality Control · Assembly Verification
-            </p>
-
-          </article>
-
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- =====================================================
+   <section class="section expertise-section" id="embedded">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Embedded systems, control and quality
+      </p>
+      <h2>
+       Physical systems, sensing and industrial applications
+      </h2>
+      <p>
+       These projects connect embedded development and control
+            engineering with automotive sensing and manufacturing
+            quality.
+      </p>
+     </div>
+     <div class="projects-grid">
+      <article class="project-card">
+       <p class="project-category">
+        Individual Project &middot; October 2022&ndash;February 2023
+       </p>
+       <h3>
+        Road-Damage Vibration Detection Device
+       </h3>
+       <p>
+        Independently developed an embedded prototype for
+              detecting strong vehicle vibrations associated with
+              damaged road surfaces.
+       </p>
+       <p>
+        The system used an Arduino UNO, ADXL337 accelerometer
+              and SIM7000 module to capture events, time and GNSS
+              location. LTE-M and AT-command communication were
+              prepared, but the server-side integration was not
+              completed within the project.
+       </p>
+       <p class="technology-list">
+        Arduino UNO &middot; ADXL337 &middot; SIM7000 &middot; GNSS &middot; LTE-M
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Team Project &middot; October 2022&ndash;February 2023
+       </p>
+       <h3>
+        ESP32 DC Motor PID Control
+       </h3>
+       <p>
+        Implemented and tuned PID-based control of a DC motor
+              using an ESP32.
+       </p>
+       <p>
+        The case study reinforced practical embedded-control
+              knowledge and demonstrated how different PID-tuning
+              approaches influenced system behavior.
+       </p>
+       <p class="technology-list">
+        ESP32 &middot; PID Control &middot; DC Motor &middot; Embedded Control
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Internship Project &middot; August 2017&ndash;October 2017
+       </p>
+       <h3>
+        Radio-Assembly Screw Verification and LabVIEW Visualization
+       </h3>
+       <p>
+        Supported development of a system that locked a radio
+              in place until the correct number of screws had been
+              properly tightened.
+       </p>
+       <p>
+        An incorrectly tightened screw did not increment the
+              count, and the radio was not released. I added a small
+              LabVIEW visualization to the existing Andon system to
+              display how many radios passed the new verification
+              point.
+       </p>
+       <p class="technology-list">
+        LabVIEW &middot; Andon &middot; Quality Control &middot; Assembly Verification
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <!-- =====================================================
          Bachelor projects
+         White background / gray cards
          ===================================================== -->
-
-    <section class="section career-section" id="bachelor">
-      <div class="container">
-
-        <div class="section-heading">
-
-          <p class="section-label">
-            Selected Bachelor projects
-          </p>
-
-          <h2>
-            Early robotics, automation and system design
-          </h2>
-
-          <p>
-            My Bachelor projects established the interdisciplinary
-            foundation that later developed into my focus on
-            robotics and autonomous systems.
-          </p>
-
-        </div>
-
-        <div class="projects-grid">
-
-          <article class="project-card">
-
-            <p class="project-category">
-              Graduation Project · Automation
-            </p>
-
-            <h3>
-              Automated Color-Based Sorting System
-            </h3>
-
-            <p>
-              Designed a system for detecting the color of boxes
-              transported on a conveyor belt and sorting them into
-              crates using a pneumatic actuator.
-            </p>
-
-            <p>
-              The engineering work included system architecture,
-              sensor and actuator selection, control logic,
-              component evaluation, FluidSIM and SolidWorks
-              simulation, cost analysis and return-on-investment
-              evaluation.
-            </p>
-
-            <p class="technology-list">
-              Sensors · Pneumatics · FluidSIM · SolidWorks · ROI
-            </p>
-
-          </article>
-
-          <article class="project-card">
-
-            <p class="project-category">
-              Robotics · Computer Vision
-            </p>
-
-            <h3>
-              Camera-Based Robotic Vehicle
-            </h3>
-
-            <p>
-              Developed a robotic vehicle that used a camera to
-              detect directional symbols.
-            </p>
-
-            <p>
-              Based on the detected symbol, the vehicle executed
-              an autonomous decision: turn left, turn right,
-              continue forward or stop.
-            </p>
-
-            <p class="technology-list">
-              Camera · Arduino/Raspberry Pi · Robotics · Vision
-            </p>
-
-          </article>
-
-          <article class="project-card">
-
-            <p class="project-category">
-              Mechatronic System Design
-            </p>
-
-            <h3>
-              Automated Drink Delivery Concept
-            </h3>
-
-            <p>
-              Designed a mechatronic system inspired by conveyor
-              restaurant concepts and adapted it to deliver drinks
-              to customers in a bar.
-            </p>
-
-            <p>
-              The project applied requirements thinking,
-              functional design, system architecture and
-              interdisciplinary integration of mechanical,
-              electronic and software components.
-            </p>
-
-            <p class="technology-list">
-              SysML · V-Model · Requirements · System Architecture
-            </p>
-
-          </article>
-
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- =====================================================
-         Development approach
+   <section class="section career-section" id="bachelor">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Bachelor&rsquo;s engineering projects
+      </p>
+      <h2>
+       Mechatronics, automation and early robotics
+      </h2>
+      <p>
+       These projects established my foundation in complete
+            mechatronic-system design, industrial automation,
+            robotics and computer vision.
+      </p>
+     </div>
+     <div class="projects-grid">
+      <article class="project-card">
+       <p class="project-category">
+        Comprehensive Graduation Examination &middot; September 2018
+       </p>
+       <h3>
+        Automated Color-Based Sorting System
+       </h3>
+       <p>
+        Designed a complete mechatronic system that transported
+              boxes from a delivery point to storage according to
+              detected color.
+       </p>
+       <p>
+        The one-week examination project included sensor and
+              actuator selection, conveyor-system selection, sequence
+              logic with MATLAB Stateflow, pneumatic logic with
+              FluidSIM, electronic logic with Proteus, a complete
+              SolidWorks model, cost analysis and estimated ROI.
+       </p>
+       <p class="technology-list">
+        Stateflow &middot; FluidSIM &middot; Proteus &middot; SolidWorks &middot; Pneumatics
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Robotics &middot; October 2017&ndash;February 2018
+       </p>
+       <h3>
+        PS3-Camera-Guided Automated Car
+       </h3>
+       <p>
+        Developed an automated car that detected directional
+              arrows with a PS3 camera and translated them into
+              movement commands.
+       </p>
+       <p>
+        Right and left arrows triggered turns, an upward arrow
+              commanded forward motion and a downward arrow commanded
+              the vehicle to stop.
+       </p>
+       <p class="technology-list">
+        PS3 Camera &middot; Image Processing &middot; Mobile Robotics
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        INCISCOS 2017 &middot; April 2017&ndash;August 2017
+       </p>
+       <h3>
+        Line-Following Car
+       </h3>
+       <p>
+        Built a simple line-following vehicle for the INCISCOS
+              2017 international conference at UTE University.
+       </p>
+       <p>
+        My participation certificate is dated 23&ndash;25 November
+              2017. I also attended workshops on MATLAB/iOS actuator
+              control and HMI/SCADA systems with LabVIEW.
+       </p>
+       <p class="technology-list">
+        Mobile Robotics &middot; Sensors &middot; Control &middot; INCISCOS 2017
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Systems Engineering &middot; October 2017&ndash;February 2018
+       </p>
+       <h3>
+        Automated Drink-Delivery Concept
+       </h3>
+       <p>
+        Designed a conceptual mechatronic drink-delivery
+              system inspired by Japanese kaiten-sushi restaurants.
+       </p>
+       <p>
+        The theoretical project applied SysML, the V-Model,
+              requirements analysis, system architecture and sensor
+              and actuator selection. It was a design concept, not a
+              constructed prototype.
+       </p>
+       <p class="technology-list">
+        SysML &middot; V-Model &middot; Requirements &middot; System Architecture
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Industrial Automation &middot; October 2017&ndash;February 2018
+       </p>
+       <h3>
+        FESTO Training Station Automation
+       </h3>
+       <p>
+        Worked in a group to automate a FESTO training station
+              using a Siemens S7 PLC and TIA Portal.
+       </p>
+       <p>
+        The project included actuator sequencing and
+              coordinate-based robotic-arm movement sequences. The
+              exact arm-programming method is intentionally omitted
+              because it has not yet been verified.
+       </p>
+       <p class="technology-list">
+        Siemens S7 &middot; TIA Portal &middot; PLC &middot; Actuator Sequencing
+       </p>
+      </article>
+     </div>
+     <div class="section-action">
+      <a class="button button-secondary" href="https://inciscos.ute.edu.ec/archive-inciscos/2017/index.php/en" rel="noopener noreferrer" target="_blank">
+       View INCISCOS 2017 archive
+      </a>
+     </div>
+    </div>
+   </section>
+   <!-- =====================================================
+         Engineering approach
+         Gray background / white cards
          ===================================================== -->
-
-    <section class="section expertise-section">
-      <div class="container">
-
-        <div class="section-heading">
-
-          <p class="section-label">
-            Engineering approach
-          </p>
-
-          <h2>
-            Skills demonstrated across the projects
-          </h2>
-
-          <p>
-            Although the technologies vary, the projects follow a
-            consistent engineering process: understand the
-            problem, select an approach, integrate components,
-            test the system and document the outcome.
-          </p>
-
-        </div>
-
-        <div class="expertise-grid">
-
-          <article class="expertise-card">
-
-            <h3>
-              Problem Analysis
-            </h3>
-
-            <p>
-              Translating a technical or user need into a defined
-              engineering objective and functional requirements.
-            </p>
-
-          </article>
-
-          <article class="expertise-card">
-
-            <h3>
-              System Integration
-            </h3>
-
-            <p>
-              Connecting software, sensors, actuators, robotic
-              platforms, models and communication components.
-            </p>
-
-          </article>
-
-          <article class="expertise-card">
-
-            <h3>
-              Implementation
-            </h3>
-
-            <p>
-              Using Python, C/C++, ROS, microcontrollers,
-              simulation tools and machine-learning frameworks.
-            </p>
-
-          </article>
-
-          <article class="expertise-card">
-
-            <h3>
-              Testing and Evaluation
-            </h3>
-
-            <p>
-              Assessing functionality, model behavior, control
-              performance, technical feasibility and project
-              limitations.
-            </p>
-
-          </article>
-
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- =====================================================
-         Contact and navigation
+   <section class="section expertise-section">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Engineering approach
+      </p>
+      <h2>
+       Skills demonstrated across the portfolio
+      </h2>
+      <p>
+       The technologies changed over time, but the underlying
+            process remained consistent: understand the problem,
+            select an appropriate approach, integrate the system,
+            test the result and document its limitations.
+      </p>
+     </div>
+     <div class="expertise-grid">
+      <article class="expertise-card">
+       <h3>
+        Problem Definition
+       </h3>
+       <p>
+        Translating practical, research or user needs into
+              technical objectives, requirements and measurable
+              system behavior.
+       </p>
+      </article>
+      <article class="expertise-card">
+       <h3>
+        System Integration
+       </h3>
+       <p>
+        Connecting software, sensors, actuators, models,
+              robotic platforms, communication modules and data
+              pipelines.
+       </p>
+      </article>
+      <article class="expertise-card">
+       <h3>
+        Implementation and Testing
+       </h3>
+       <p>
+        Developing with Python, C++, ROS/ROS2,
+              microcontrollers, simulation tools and machine-learning
+              frameworks, supported by testing and validation.
+       </p>
+      </article>
+      <article class="expertise-card">
+       <h3>
+        Honest Technical Evaluation
+       </h3>
+       <p>
+        Documenting team context, individual contributions,
+              achieved results, incomplete components and technical
+              limitations without overstating the work.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <!-- =====================================================
+         Contact
          ===================================================== -->
-
-    <section class="section contact-section">
-      <div class="container contact-container">
-
-        <div class="contact-content">
-
-          <p class="section-label">
-            Continue exploring
-          </p>
-
-          <h2>
-            Projects grounded in engineering education and practice
-          </h2>
-
-          <p>
-            These projects are supported by professional experience
-            in automotive production, electronics and robotics
-            laboratories, ROS2 research software and technical
-            system integration.
-          </p>
-
-        </div>
-
-        <div class="contact-actions">
-
-          <a
-            class="button button-primary"
-            href="experience.html"
-          >
-            View experience
-          </a>
-
-          <a
-            class="button button-secondary"
-            href="education.html"
-          >
-            View education
-          </a>
-
-          <a
-            class="button button-secondary"
-            href="index.html"
-          >
-            Return to homepage
-          </a>
-
-        </div>
-
-      </div>
-    </section>
-
+   <section class="section contact-section">
+    <div class="container contact-container">
+     <div class="contact-content">
+      <p class="section-label">
+       Continue exploring
+      </p>
+      <h2>
+       Projects supported by engineering education and practice
+      </h2>
+      <p>
+       This portfolio is complemented by professional experience
+            in automotive production and quality, electronics and
+            robotics laboratories, ROS2 research software and
+            international technical collaboration.
+      </p>
+     </div>
+     <div class="contact-actions">
+      <a class="button button-primary" href="experience.html">
+       View experience
+      </a>
+      <a class="button button-secondary" href="education.html">
+       View education
+      </a>
+      <a class="button button-secondary" href="index.html">
+       Return to homepage
+      </a>
+     </div>
+    </div>
+   </section>
   </main>
-
-
   <!-- =======================================================
        Footer
        ======================================================= -->
-
   <footer class="site-footer">
-    <div class="container footer-content">
-
-      <p>
-        © 2026 Felipe Rojas
-      </p>
-
-      <div class="footer-links">
-
-        <a href="index.html">
-          Home
-        </a>
-
-        <a href="education.html">
-          Education
-        </a>
-
-        <a href="experience.html">
-          Experience
-        </a>
-
-        <a
-          href="https://github.com/FelipeZerokun"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/felipe-rojas-17479a198/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a>
-
-        <a href="mailto:epilefrojasleon@gmail.com">
-          Email
-        </a>
-
-      </div>
-
+   <div class="container footer-content">
+    <p>
+     &copy; 2026 Felipe Rojas
+    </p>
+    <div class="footer-links">
+     <a href="index.html">
+      Home
+     </a>
+     <a href="education.html">
+      Education
+     </a>
+     <a href="experience.html">
+      Experience
+     </a>
+     <a href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank">
+      GitHub
+     </a>
+     <a href="https://www.linkedin.com/in/felipe-rojas-17479a198/" rel="noopener noreferrer" target="_blank">
+      LinkedIn
+     </a>
+     <a href="mailto:epilefrojasleon@gmail.com">
+      Email
+     </a>
     </div>
+   </div>
   </footer>
-
-</body>
+ </body>
 </html>
