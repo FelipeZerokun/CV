@@ -12,7 +12,7 @@ The portfolio is available in three languages:
 
 ## Portfolio Website
 
-[Visit the portfolio website](YOUR-GITHUB-PAGES-URL)
+[Visit the portfolio website](https://felipezerokun.github.io/CV/index.html)
 
 Replace `YOUR-GITHUB-PAGES-URL` with the final GitHub Pages address after publishing the website.
 
