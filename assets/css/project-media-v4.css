@@ -1,0 +1,193 @@
+/* =========================================================
+   Project-page media galleries — v4
+   ========================================================= */
+
+.project-media-note {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.project-gallery {
+  margin-top: 3rem;
+}
+
+.project-gallery + .section-action,
+.project-gallery + .section-heading {
+  margin-top: 3rem;
+}
+
+.project-gallery__heading {
+  max-width: 780px;
+  margin-bottom: 1.5rem;
+}
+
+.project-gallery__heading h3 {
+  margin-top: 0.35rem;
+  margin-bottom: 0.75rem;
+  font-size: clamp(1.4rem, 2.2vw, 2rem);
+}
+
+.project-media-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.project-media {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(17, 24, 39, 0.12);
+  border-radius: 0.75rem;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-small);
+}
+
+.career-section .project-media {
+  background: var(--color-background);
+}
+
+.project-media--wide {
+  grid-column: 1 / -1;
+}
+
+.project-media__link {
+  display: flex;
+  min-height: 240px;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  background: #ffffff;
+}
+
+.project-media__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 520px;
+  object-fit: contain;
+}
+
+.project-media__caption {
+  padding: 1rem;
+  border-top: 1px solid rgba(17, 24, 39, 0.1);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.project-gallery--thesis .project-media:not(.project-media--wide),
+.project-gallery--document-classifier .project-media {
+  grid-column: span 6;
+}
+
+
+/* =========================================================
+   SCARA gallery — concept and integrated simulation
+   ========================================================= */
+
+.project-gallery--scara .project-media-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+}
+
+.project-gallery--scara .project-media {
+  grid-column: auto;
+  width: 100%;
+  height: 100%;
+  align-self: stretch;
+}
+
+.project-gallery--scara .project-media__link {
+  flex: 1;
+  min-height: 0;
+  aspect-ratio: 2 / 1;
+}
+
+.project-gallery--scara .project-media__image {
+  width: 100%;
+  height: 100%;
+  max-height: 520px;
+  object-fit: contain;
+}
+
+/* =========================================================
+   TurtleBot maze gallery — two equal-height project visuals
+   ========================================================= */
+
+.project-gallery--turtlebot .project-media-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+}
+
+.project-gallery--turtlebot .project-media {
+  grid-column: auto;
+  width: 100%;
+  height: 100%;
+  align-self: stretch;
+}
+
+.project-gallery--turtlebot .project-media__link {
+  flex: 1;
+  min-height: 0;
+  padding: 0.75rem;
+}
+
+.project-gallery--turtlebot .project-media__image {
+  width: 100%;
+  height: 100%;
+  max-height: 620px;
+  object-fit: contain;
+}
+
+.project-media__link:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: -3px;
+}
+
+@media (max-width: 900px) {
+  .project-media,
+  .project-gallery--thesis .project-media:not(.project-media--wide),
+  .project-gallery--document-classifier .project-media {
+    grid-column: span 6;
+  }
+
+  .project-media--wide {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 760px) {
+  .project-gallery--turtlebot .project-media-grid,
+  .project-gallery--scara .project-media-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-gallery--scara .project-media__link {
+    aspect-ratio: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .project-gallery {
+    margin-top: 2.25rem;
+  }
+
+  .project-media,
+  .project-media--wide,
+  .project-gallery--thesis .project-media:not(.project-media--wide),
+  .project-gallery--document-classifier .project-media {
+    grid-column: 1 / -1;
+  }
+
+  .project-media__link {
+    min-height: 180px;
+    padding: 0.5rem;
+  }
+
+  .project-media__image {
+    max-height: 420px;
+  }
+}
