@@ -97,3 +97,38 @@ DOI: `10.1109/CoDIT62066.2024.10708242`
 └── assets
     ├── css
     └── images
+```
+
+## Technologies Used
+
+The portfolio website was developed as a lightweight static website using:
+
+- HTML5
+- CSS3
+- Responsive layouts
+- Semantic HTML
+- Accessible navigation and image descriptions
+- GitHub Pages
+
+No JavaScript framework is required.
+
+## Repository Status
+
+The portfolio website is functional and available in three languages:
+
+- English
+- German
+- Spanish
+
+The website will continue to evolve as I update my project repositories, improve their technical documentation and replace temporary GitHub links with direct links to the corresponding projects.
+
+## Contact
+
+- [Portfolio Website](https://felipezerokun.github.io/CV/index.html)
+- [GitHub](https://github.com/FelipeZerokun)
+- [LinkedIn](https://www.linkedin.com/in/felipe-rojas-ec/)
+- Email: `epilefrojasleon@gmail.com`
+
+---
+
+© 2026 Felipe Rojas
