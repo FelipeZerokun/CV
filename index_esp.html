@@ -1,90 +1,364 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Felipe Rojas Sitio Personal</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="Images/wolf_icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-  </head>
-  <body>
-
-    <div class="languages-container">
-      <a href="index.html">English</a>
-      <a href="index_esp.html">Español</a>
-      <a href="index_de.html">Deutsch</a>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Portafolio profesional de Felipe Rojas, ingeniero en Mecatr&oacute;nica especializado en inteligencia artificial, rob&oacute;tica, sistemas aut&oacute;nomos e ingenier&iacute;a automotriz." name="description"/>
+  <meta content="Felipe Rojas" name="author"/>
+  <title>
+   Felipe Rojas | Ingenier&iacute;a Mecatr&oacute;nica, IA y Rob&oacute;tica
+  </title>
+  <link href="assets/images/wolf_icon.png" rel="icon" type="image/png"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="assets/css/styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main-content">
+   Ir al contenido principal
+  </a>
+  <header class="site-header">
+   <nav aria-label="Navegaci&oacute;n principal" class="navbar container">
+    <a class="site-logo" href="index_esp.html">
+     Felipe Rojas
+    </a>
+    <div class="navigation-links">
+     <a href="#about">
+      Sobre m&iacute;
+     </a>
+     <a href="#expertise">
+      Mi perfil
+     </a>
+     <a href="#career">
+      Trayectoria
+     </a>
+     <a href="#projects">
+      Proyectos
+     </a>
+     <a href="#contact">
+      Contacto
+     </a>
     </div>
-
-    <div class= "top-container">
-      <h1>Soy Felipe Rojas</h1>
-      <h2>Un ingeniero en mecatrónica e Inteligencia Artificial</h2>
-      <h2>Entusiasta de la robótica y la navegación autónoma.</h2>
+    <div aria-label="Selecci&oacute;n de idioma" class="language-switcher">
+     <a href="index.html" hreflang="en" lang="en">
+      EN
+     </a>
+     <a href="index_de.html" hreflang="de" lang="de">
+      DE
+     </a>
+     <a aria-current="page" href="index_esp.html" hreflang="es" lang="es">
+      ES
+     </a>
     </div>
-
-    <div class="middle-container">
-      <div class="profile">
-        <img class = "my-picture" src="Images/profile_image.png" alt="my profile image">
-        <h2>Acerca de mi.</h2>
-        <p class="my_description">
-          ¡Hola a todos! Me llamo Felipe Rojas, soy de Ecuador, pero actualmente vivo en Alemania, y soy un ingeniero.<br>
-          Me estoy especializando en <em>Inteligencia Artificial, Robótica, navegación autónoma</em> entre otros temas.
-          <br>
-          Realizé el curso de <em>Ingeniero de vehículos autónomos </em>de Udacity en julio del 2020, el cual finalicé en enero de 2021.
-          <br>
-          Estoy terminando un máster en <em>Inteligencia Artificial para sensores y actuadores inteligentes</em>.
-          <br>
-          Suelo subir mis proyectos en mi <a href="https://github.com/FelipeZerokun">Github</a>, allí pueden ver mi trabajo.
-        </p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>Mis habilidades.</h2>
-
-        <div class="skill-row">
-          <img class="ai-icon" src="https://cdn-icons-png.flaticon.com/512/1693/1693820.png" alt="AI Icon">
-          <h3>Mi carrera profesional</h3>
-          <p class=" my-career">
-            Estudié ingeniería Mecatrónica y me gradué de mi universidad en diciembre de 2018. <br>
-            Estoy realizando una maestría en Inteligencia Artificial para sensores y actuadores inteligentes en el Instituto Tecnológico de Deggendorf.
-            Tengo conocimientos en robótica, aprendizaje profundo (DL), sistemas de control, <br>SLAM, navegación, planificación de ruta y más.
-
-          </p>
-        </div>
-        <div class="skill-row">
-          <img class="car-icon" src="Images/smart-car.png" alt="AI Icon">
-          <h3>Mi vocación</h3>
-          <p class="my-vocation">
-            He estado interesado en los robots desde que era un niño. Por eso elegí mi carrera.
-            Sin embargo, en la universidad aprendí un poco de Inteligencia Artificial, y simplemente me encantó. <br>
-            Desde entonces, he estado mejorando mis habilidades de programación y aprendiendo sobre ambos temas.
-            <br>Mi última meta es trabajar en el campo de vehículos autónomos, específicamente en el sector automotriz.
-          </p>
-        </div>
-        <a class="works-link" href="work_and_experience.html">Revisa mi educación y experiencia laboral aquí</a>
-      </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Ponte en contacto conmigo</h2>
-        <p>
-          Actualmente, resido en Alemania y estoy buscando trabajo en el sector de navegación autónoma. <br>
-          Hablo inglés y español con fluidez, tengo un nivel intermedio de alemán y un conocimiento básico de italiano y japonés.
-        </p>
-        <a class="btn" href="mailto:epilefrojasleon@gmail.com">CONTÁCTAME</a>
-      </div>
+   </nav>
+  </header>
+  <main id="main-content">
+   <section class="hero">
+    <div class="container hero-content">
+     <p class="hero-eyebrow">
+      Mecatr&oacute;nica &middot; Inteligencia Artificial &middot; Rob&oacute;tica &middot; Automoci&oacute;n
+     </p>
+     <h1>
+      Felipe Rojas
+     </h1>
+     <p class="hero-title">
+      Ingeniero en Mecatr&oacute;nica especializado en Inteligencia Artificial, Rob&oacute;tica y Sistemas Aut&oacute;nomos
+     </p>
+     <p class="hero-description">
+      Combino experiencia en un proveedor automotriz Tier 1 con trabajo acad&eacute;mico y pr&aacute;ctico en rob&oacute;tica, inteligencia artificial, navegaci&oacute;n aut&oacute;noma y sistemas mecatr&oacute;nicos inteligentes.
+     </p>
+     <p class="hero-location">
+      Residente en Ingolstadt, Alemania
+     </p>
+     <div class="hero-actions">
+      <a class="button button-primary" href="experience_esp.html">
+       Ver mi experiencia
+      </a>
+      <a class="button button-secondary" href="projects_esp.html">
+       Ver mis proyectos
+      </a>
+      <a class="button button-secondary" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank">
+       Ver GitHub
+      </a>
+      <a class="button button-text" href="mailto:epilefrojasleon@gmail.com">
+       Contactarme
+      </a>
+     </div>
     </div>
-
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.instagram.com/felipezerokun/">Instagram</a>
-      <a class="footer-link" href="https://www.linkedin.com/in/felipe-rojas-17479a198/">LinkedIn</a>
-      <a class="footer-link" href="https://github.com/FelipeZerokun">Github</a><br><br> <hr>
-
-      <a href="https://www.flaticon.com/free-icons/ai" title="AI icons">Ícono de AI creador por photo3idea_studio - Flaticon</a><br>
-      <a href="https://www.flaticon.com/free-icons/wolf" title="wolf icons">Ícono de lobo creado por Andy Horvath - Flaticon</a><br>
-      <a href="https://www.flaticon.com/free-icons/autonomous-car" title="autonomous-car icons">Ícono de vehículo autónomo creador por Freepik - Flaticon</a>
-
-      <p>© 2025 Felipe Rojas.</p>
+   </section>
+   <section class="section about-section" id="about">
+    <div class="container about-grid">
+     <div class="about-image-container">
+      <img alt="Retrato de Felipe Rojas" class="profile-image" src="assets/images/profile_image.png"/>
+     </div>
+     <div class="about-content">
+      <p class="section-label">
+       Sobre m&iacute;
+      </p>
+      <h2>
+       Integrando mecatr&oacute;nica, software y sistemas inteligentes
+      </h2>
+      <p>
+       Soy ingeniero en Mecatr&oacute;nica de Ecuador y tengo un M.Eng. en Artificial Intelligence for Smart Sensors and Actuators por la Technische Hochschule Deggendorf, en Alemania.
+      </p>
+      <p>
+       Mi trayectoria profesional incluye experiencia en ingenier&iacute;a de producci&oacute;n automotriz y gesti&oacute;n de calidad en un proveedor Tier 1. Este trabajo fortaleci&oacute; mis competencias en planificaci&oacute;n de la producci&oacute;n, documentaci&oacute;n de procesos, an&aacute;lisis de calidad y apoyo en actividades de acreditaci&oacute;n seg&uacute;n ISO 9001 e IATF 16949.
+      </p>
+      <p>
+       En Alemania ampli&eacute; mi perfil mediante trabajo en laboratorios de electr&oacute;nica y rob&oacute;tica, preparaci&oacute;n de plataformas rob&oacute;ticas y apoyo a software de investigaci&oacute;n. Trabaj&eacute; con ROS/ROS2, Docker, TurtleBot, Quanser QCar, procesamiento de datos de sensores, fundamentos de Graph-SLAM, GitHub y flujos de desarrollo basados en CI/CD.
+      </p>
+     </div>
     </div>
-  </body>
+   </section>
+   <section class="section expertise-section" id="expertise">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Perfil t&eacute;cnico
+      </p>
+      <h2>
+       &Aacute;reas principales
+      </h2>
+      <p>
+       Mi perfil conecta el desarrollo de software, los sistemas inteligentes y las disciplinas tradicionales de la ingenier&iacute;a.
+      </p>
+     </div>
+     <div class="expertise-grid">
+      <article class="expertise-card">
+       <h3>
+        Rob&oacute;tica y sistemas aut&oacute;nomos
+       </h3>
+       <p>
+        ROS/ROS2, SLAM, localizaci&oacute;n, mapeo, procesamiento de datos de sensores, planificaci&oacute;n de rutas, navegaci&oacute;n, simulaci&oacute;n e integraci&oacute;n de sistemas.
+       </p>
+      </article>
+      <article class="expertise-card">
+       <h3>
+        Inteligencia artificial
+       </h3>
+       <p>
+        Machine learning, deep learning, visi&oacute;n por computador, procesamiento de datos y aplicaciones de sensores inteligentes.
+       </p>
+      </article>
+      <article class="expertise-card">
+       <h3>
+        Ingenier&iacute;a automotriz y calidad
+       </h3>
+       <p>
+        Experiencia en un proveedor automotriz Tier 1, an&aacute;lisis de procesos, documentaci&oacute;n t&eacute;cnica, gesti&oacute;n de calidad y resoluci&oacute;n estructurada de problemas.
+       </p>
+      </article>
+      <article class="expertise-card">
+       <h3>
+        Software, simulaci&oacute;n y sistemas
+       </h3>
+       <p>
+        Python, C/C++, Git/GitHub, Linux, Docker, MATLAB/Simulink, Gazebo, ingenier&iacute;a de sistemas, verificaci&oacute;n y validaci&oacute;n.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section career-section" id="career">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Trayectoria profesional
+      </p>
+      <h2>
+       De la mecatr&oacute;nica a los sistemas aut&oacute;nomos inteligentes
+      </h2>
+      <p>
+       Mi trayectoria se ha desarrollado mediante una formaci&oacute;n en ingenier&iacute;a, experiencia en la industria automotriz y una especializaci&oacute;n en inteligencia artificial y rob&oacute;tica.
+      </p>
+     </div>
+     <div class="career-grid">
+      <article class="career-card">
+       <p class="career-type">
+        Fundamentos de ingenier&iacute;a
+       </p>
+       <h3>
+        B.Eng. en Mecatr&oacute;nica
+       </h3>
+       <p>
+        Desarrollo de una base interdisciplinaria en mec&aacute;nica, electr&oacute;nica, automatizaci&oacute;n, sistemas de control, programaci&oacute;n y dise&ntilde;o de sistemas mecatr&oacute;nicos.
+       </p>
+      </article>
+      <article class="career-card">
+       <p class="career-type">
+        Especializaci&oacute;n en conducci&oacute;n aut&oacute;noma
+       </p>
+       <h3>
+        Self-Driving Car Engineer Nanodegree
+       </h3>
+       <p>
+        Desarrollo de experiencia pr&aacute;ctica en percepci&oacute;n para veh&iacute;culos aut&oacute;nomos, fusi&oacute;n de sensores, localizaci&oacute;n, planificaci&oacute;n de rutas y control con Python, C++, TensorFlow, Keras y ROS.
+       </p>
+      </article>
+      <article class="career-card">
+       <p class="career-type">
+        Industria automotriz
+       </p>
+       <h3>
+        Ingenier&iacute;a de Producci&oacute;n y Gesti&oacute;n de Calidad
+       </h3>
+       <p>
+        Experiencia profesional en un proveedor automotriz Tier 1, trabajando con planificaci&oacute;n y secuenciaci&oacute;n de la producci&oacute;n, documentaci&oacute;n de calidad, an&aacute;lisis de defectos y apoyo a acreditaciones seg&uacute;n ISO 9001 e IATF 16949.
+       </p>
+      </article>
+      <article class="career-card">
+       <p class="career-type">
+        Formaci&oacute;n avanzada
+       </p>
+       <h3>
+        M.Eng. Artificial Intelligence for Smart Sensors and Actuators
+       </h3>
+       <p>
+        Especializaci&oacute;n en inteligencia artificial, rob&oacute;tica, sistemas aut&oacute;nomos, sensores inteligentes, actuadores y aplicaciones mecatr&oacute;nicas inteligentes.
+       </p>
+      </article>
+      <article class="career-card">
+       <p class="career-type">
+        Investigaci&oacute;n y trabajo de laboratorio
+       </p>
+       <h3>
+        Laboratorio de Electr&oacute;nica y Rob&oacute;tica
+       </h3>
+       <p>
+        Apoyo en actividades de laboratorio, preparaci&oacute;n de plataformas rob&oacute;ticas, asistencia a estudiantes e investigadores y trabajo con Python, C++, ROS/ROS2 y herramientas de simulaci&oacute;n.
+       </p>
+      </article>
+      <article class="career-card">
+       <p class="career-type">
+        Publicaci&oacute;n cient&iacute;fica
+       </p>
+       <h3>
+        CoDIT 2024
+       </h3>
+       <p>
+        Contribuci&oacute;n a una investigaci&oacute;n sobre exploraci&oacute;n y navegaci&oacute;n aut&oacute;noma de robots m&oacute;viles presentada en la International Conference on Control, Decision and Information Technologies 2024.
+       </p>
+      </article>
+     </div>
+     <div class="section-action section-action-group">
+      <a class="button button-secondary" href="education_esp.html">
+       Ver formaci&oacute;n acad&eacute;mica
+      </a>
+      <a class="button button-secondary" href="experience_esp.html">
+       Ver experiencia profesional
+      </a>
+     </div>
+    </div>
+   </section>
+   <section class="section projects-section" id="projects">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Trabajo seleccionado
+      </p>
+      <h2>
+       Proyectos e investigaci&oacute;n
+      </h2>
+      <p>
+       Una selecci&oacute;n de trabajos que demuestra mi experiencia en inteligencia artificial, rob&oacute;tica y sistemas aut&oacute;nomos.
+      </p>
+     </div>
+     <div class="projects-grid">
+      <article class="project-card">
+       <p class="project-category">
+        Inteligencia Artificial &middot; Rob&oacute;tica
+       </p>
+       <h3>
+        Reconocimiento de la intenci&oacute;n de peatones
+       </h3>
+       <p>
+        En mi tesis de maestr&iacute;a desarroll&eacute; una arquitectura para la detecci&oacute;n y el seguimiento de peatones, el reconocimiento de su acci&oacute;n actual y la predicci&oacute;n de intenci&oacute;n a corto plazo, con el objetivo de apoyar una planificaci&oacute;n de rutas m&aacute;s segura para un robot aut&oacute;nomo de reparto.
+       </p>
+       <p class="technology-list">
+        C&aacute;mara de profundidad &middot; I3D &middot; LSTM &middot; MLP &middot; Navegaci&oacute;n centrada en las personas
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Rob&oacute;tica aut&oacute;noma
+       </p>
+       <h3>
+        Navegaci&oacute;n aut&oacute;noma de un robot m&oacute;vil
+       </h3>
+       <p>
+        Trabaj&eacute; en la exploraci&oacute;n y navegaci&oacute;n aut&oacute;noma de un robot m&oacute;vil en un entorno inicialmente desconocido.
+       </p>
+       <p class="technology-list">
+        ROS / ROS2 &middot; TurtleBot3 &middot; Gazebo &middot; Mapeo &middot; Navegaci&oacute;n
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Conducci&oacute;n aut&oacute;noma
+       </p>
+       <h3>
+        Proyectos de ingenier&iacute;a de veh&iacute;culos aut&oacute;nomos
+       </h3>
+       <p>
+        Desarroll&eacute; soluciones basadas en proyectos para visi&oacute;n por computador, deep learning, fusi&oacute;n de sensores, localizaci&oacute;n vehicular, planificaci&oacute;n del comportamiento, generaci&oacute;n de trayectorias y control aut&oacute;nomo.
+       </p>
+       <p class="technology-list">
+        Python &middot; C++ &middot; TensorFlow &middot; Keras &middot; ROS &middot; Filtros de Kalman
+       </p>
+      </article>
+     </div>
+     <div class="section-action">
+      <a class="button button-secondary" href="projects_esp.html">
+       Explorar todos mis proyectos
+      </a>
+     </div>
+    </div>
+   </section>
+   <section class="section contact-section" id="contact">
+    <div class="container contact-container">
+     <div class="contact-content">
+      <p class="section-label">
+       Contacto
+      </p>
+      <h2>
+       Conectemos
+      </h2>
+      <p>
+       Actualmente busco oportunidades profesionales en ingenier&iacute;a automotriz, rob&oacute;tica, sistemas aut&oacute;nomos, automatizaci&oacute;n y desarrollo de software para aplicaciones de ingenier&iacute;a.
+      </p>
+      <p>
+       Resido en Ingolstadt y estoy especialmente interesado en oportunidades en Baviera y en otras regiones de Alemania.
+      </p>
+     </div>
+     <div class="contact-actions">
+      <a class="button button-primary" href="mailto:epilefrojasleon@gmail.com">
+       Enviar un correo
+      </a>
+      <a class="button button-secondary" href="https://www.linkedin.com/in/felipe-rojas-ec/" rel="noopener noreferrer" target="_blank">
+       Ver LinkedIn
+      </a>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="site-footer">
+   <div class="container footer-content">
+    <p>
+     &copy; 2026 Felipe Rojas
+    </p>
+    <div class="footer-links">
+     <a href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank">
+      GitHub
+     </a>
+     <a href="https://www.linkedin.com/in/felipe-rojas-ec/" rel="noopener noreferrer" target="_blank">
+      LinkedIn
+     </a>
+     <a href="mailto:epilefrojasleon@gmail.com">
+      Correo
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
 </html>
