@@ -1,84 +1,364 @@
 <!DOCTYPE html>
-<html lang="de" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Felipe Rojas persönliche Seite</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="Images/wolf_icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-  </head>
-  <body>
-
-    <div class="languages-container">
-      <a href="index.html">English</a>
-      <a href="index_esp.html">Español</a>
-      <a href="index_de.html">Deutsch</a>
+<html lang="de">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Professionelles Portfolio von Felipe Rojas, Mechatronikingenieur mit Schwerpunkt auf K&uuml;nstlicher Intelligenz, Robotik, autonomen Systemen und Automotive Engineering." name="description"/>
+  <meta content="Felipe Rojas" name="author"/>
+  <title>
+   Felipe Rojas | Mechatronik, KI und Robotik
+  </title>
+  <link href="assets/images/wolf_icon.png" rel="icon" type="image/png"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="assets/css/styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main-content">
+   Zum Hauptinhalt springen
+  </a>
+  <header class="site-header">
+   <nav aria-label="Hauptnavigation" class="navbar container">
+    <a class="site-logo" href="index_de.html">
+     Felipe Rojas
+    </a>
+    <div class="navigation-links">
+     <a href="#about">
+      &Uuml;ber mich
+     </a>
+     <a href="#expertise">
+      Mein Profil
+     </a>
+     <a href="#career">
+      Werdegang
+     </a>
+     <a href="#projects">
+      Projekte
+     </a>
+     <a href="#contact">
+      Kontakt
+     </a>
     </div>
-
-    <div class= "top-container">
-      <h1>Ich bin Felipe Rojas</h1>
-      <h2>Ein Mechatronik- und KI-Ingenieur</h2>
-      <h2>Enthusiast für Robotik und autonome Navigation</h2>
+    <div aria-label="Sprachauswahl" class="language-switcher">
+     <a href="index.html" hreflang="en" lang="en">
+      EN
+     </a>
+     <a aria-current="page" href="index_de.html" hreflang="de" lang="de">
+      DE
+     </a>
+     <a href="index_esp.html" hreflang="es" lang="es">
+      ES
+     </a>
     </div>
-
-    <div class="middle-container">
-      <div class="profile">
-        <img class = "my-picture" src="Images/profile_image.png" alt="my profile image">
-        <h2>About myself.</h2>
-        <p class="my_description">
-          Hallo zusammen! Mein Name ist Felipe Rojas, ich komme aus Ecuador, lebe aber eigentlich in Deutschland und bin Ingenieur. <br>
-          Ich spezialisiere mich auf <em>Künstliche Intelligenz, Robotik, autonome Navigation</em> und andere Themen. <br>
-          Ich habe im Juli 2020 einen Kurs über <em>Self Driving Car Engineering</em> auf Udacity gemacht, den ich im Januar 2021 abgeschlossen habe.          <br>
-          Ich beende gerade meinen Master in <em>Künstlicher Intelligenz für intelligente Sensoren und Aktoren</em>.          <br>
-          Ich lade viele meiner Projekte auf mein <a href="https://github.com/FelipeZerokun">Github</a> hoch, sodass Sie meine Arbeit dort sehen können.        </p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>Meine Fähigkeiten.</h2>
-
-        <div class="skill-row">
-          <img class="ai-icon" src="https://cdn-icons-png.flaticon.com/512/1693/1693820.png" alt="AI Icon">
-          <h3>Meine Karriere</h3>
-          <p class=" my-career">
-            Ich habe Mechatroniks studiert und mein Studium im Dezember 2018 abgeschlossen. <br>
-            Ich mache einen Masterstudiengang „Artificial Intelligence for Smart Sensors and Actuators“ an der Technischen Hochschule Deggendorf. <br>
-            Ich kenne mich mit Robotik, Deep Learning, Steuerungssystemen, <br>SLAM, Navigation, Pfadplanung und mehr aus. <br>
-          </p>
-        </div>
-        <div class="skill-row">
-          <img class="car-icon" src="Images/smart-car.png" alt="AI Icon">
-          <h3>Meine Berufung</h3>
-          <p class="my-vocation">
-              Ich interessiere mich seit meiner Kindheit für Roboter. Deshalb habe ich diesen Beruf gewählt. <br>
-              An der Uni habe ich jedoch etwas über künstliche Intelligenz gelernt und es hat mir einfach Spaß gemacht. <br>
-              Seitdem habe ich meine Programmierkenntnisse verstärkt und mich in beiden Bereichen weitergebildet. <br>
-              Mein ultimatives Ziel ist es, im Bereich der autonomen Navigation zu arbeiten, insbesondere in der Automobilindustrie.
-          </p>
-        </div>
-        <a class="works-link" href="work_and_experience_de.html">Hier finden Sie Informationen zu meiner Ausbildung und Arbeit</a>
-      </div>
-      <hr>
-      <div class="contact-me">
-          <h2>Kontaktieren Sie mich</h2>
-        <p>
-          Ich lebe derzeit in Deutschland und suche einen Job im Bereich der autonomen Navigation.<br>
-          Ich spreche fließend Englisch und Spanisch, habe mittlere Deutschkenntnisse und Grundkenntnisse in Italienisch und Japanisch. </p>
-        <a class="btn" href="mailto:epilefrojasleon@gmail.com">KONTAKTIERE MICH</a>
-      </div>
+   </nav>
+  </header>
+  <main id="main-content">
+   <section class="hero">
+    <div class="container hero-content">
+     <p class="hero-eyebrow">
+      Mechatronik &middot; K&uuml;nstliche Intelligenz &middot; Robotik &middot; Automotive
+     </p>
+     <h1>
+      Felipe Rojas
+     </h1>
+     <p class="hero-title">
+      Mechatronikingenieur mit Schwerpunkt auf K&uuml;nstlicher Intelligenz, Robotik und autonomen Systemen
+     </p>
+     <p class="hero-description">
+      Ich verbinde Berufserfahrung bei einem Tier-1-Automobilzulieferer mit akademischer und praktischer Arbeit in Robotik, K&uuml;nstlicher Intelligenz, autonomer Navigation und intelligenten mechatronischen Systemen.
+     </p>
+     <p class="hero-location">
+      Wohnhaft in Ingolstadt, Deutschland
+     </p>
+     <div class="hero-actions">
+      <a class="button button-primary" href="experience_de.html">
+       Berufserfahrung ansehen
+      </a>
+      <a class="button button-secondary" href="projects_de.html">
+       Projekte ansehen
+      </a>
+      <a class="button button-secondary" href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank">
+       GitHub ansehen
+      </a>
+      <a class="button button-text" href="mailto:epilefrojasleon@gmail.com">
+       Kontakt aufnehmen
+      </a>
+     </div>
     </div>
-
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.instagram.com/felipezerokun/">Instagram</a>
-      <a class="footer-link" href="https://www.linkedin.com/in/felipe-rojas-17479a198/">LinkedIn</a>
-      <a class="footer-link" href="https://github.com/FelipeZerokun">Github</a><br><br> <hr>
-
-      <a href="https://www.flaticon.com/free-icons/ai" title="AI icons">AI icons created by photo3idea_studio - Flaticon</a><br>
-      <a href="https://www.flaticon.com/free-icons/wolf" title="wolf icons">Wolf icons created by Andy Horvath - Flaticon</a><br>
-      <a href="https://www.flaticon.com/free-icons/autonomous-car" title="autonomous-car icons">Autonomous-car icons created by Freepik - Flaticon</a>
-
-      <p>© 2025 Felipe Rojas.</p>
+   </section>
+   <section class="section about-section" id="about">
+    <div class="container about-grid">
+     <div class="about-image-container">
+      <img alt="Portr&auml;t von Felipe Rojas" class="profile-image" src="assets/images/profile_image.png"/>
+     </div>
+     <div class="about-content">
+      <p class="section-label">
+       &Uuml;ber mich
+      </p>
+      <h2>
+       Mechatronik, Software und intelligente Systeme verbinden
+      </h2>
+      <p>
+       Ich bin Mechatronikingenieur aus Ecuador und habe einen M.Eng. in Artificial Intelligence for Smart Sensors and Actuators an der Technischen Hochschule Deggendorf in Deutschland abgeschlossen.
+      </p>
+      <p>
+       Mein beruflicher Hintergrund umfasst Produktionstechnik und Qualit&auml;tsmanagement bei einem Tier-1-Automobilzulieferer. Dabei vertiefte ich meine Kenntnisse in Produktionsplanung, Prozessdokumentation, Qualit&auml;tsanalyse sowie bei der Unterst&uuml;tzung von Reakkreditierungsaktivit&auml;ten nach ISO 9001 und IATF 16949.
+      </p>
+      <p>
+       In Deutschland erweiterte ich mein Profil durch T&auml;tigkeiten im Elektronik- und Robotiklabor, die Vorbereitung und Pr&uuml;fung robotischer Plattformen sowie die Unterst&uuml;tzung von Forschungssoftware. Dabei arbeitete ich mit ROS/ROS2, Docker, TurtleBot, Quanser QCar, Sensordatenverarbeitung, Graph-SLAM-Grundlagen, GitHub und CI/CD-basierten Entwicklungsabl&auml;ufen.
+      </p>
+     </div>
     </div>
-  </body>
+   </section>
+   <section class="section expertise-section" id="expertise">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Technisches Profil
+      </p>
+      <h2>
+       Kernkompetenzen
+      </h2>
+      <p>
+       Mein Profil verbindet Softwareentwicklung, intelligente Systeme und klassische Ingenieurdisziplinen.
+      </p>
+     </div>
+     <div class="expertise-grid">
+      <article class="expertise-card">
+       <h3>
+        Robotik und autonome Systeme
+       </h3>
+       <p>
+        ROS/ROS2, SLAM, Lokalisierung, Kartierung, Sensordatenverarbeitung, Pfadplanung, Navigation, Simulation und Systemintegration.
+       </p>
+      </article>
+      <article class="expertise-card">
+       <h3>
+        K&uuml;nstliche Intelligenz
+       </h3>
+       <p>
+        Machine Learning, Deep Learning, Computer Vision, Datenverarbeitung und intelligente Sensoranwendungen.
+       </p>
+      </article>
+      <article class="expertise-card">
+       <h3>
+        Automotive Engineering und Qualit&auml;t
+       </h3>
+       <p>
+        Erfahrung bei einem Tier-1-Automobilzulieferer, Prozessanalyse, technische Dokumentation, Qualit&auml;tsmanagement und strukturierte Probleml&ouml;sung.
+       </p>
+      </article>
+      <article class="expertise-card">
+       <h3>
+        Software, Simulation und Systems Engineering
+       </h3>
+       <p>
+        Python, C/C++, Git/GitHub, Linux, Docker, MATLAB/Simulink, Gazebo, Systems Engineering, Verifikation und Validierung.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section career-section" id="career">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Werdegang
+      </p>
+      <h2>
+       Von der Mechatronik zu intelligenten autonomen Systemen
+      </h2>
+      <p>
+       Mein beruflicher Weg entwickelte sich durch ein interdisziplin&auml;res Ingenieurstudium, Erfahrung in der Automobilindustrie und eine Spezialisierung auf K&uuml;nstliche Intelligenz und Robotik.
+      </p>
+     </div>
+     <div class="career-grid">
+      <article class="career-card">
+       <p class="career-type">
+        Ingenieurwissenschaftliche Grundlage
+       </p>
+       <h3>
+        B.Eng. Mechatronik
+       </h3>
+       <p>
+        Aufbau einer interdisziplin&auml;ren Grundlage in Mechanik, Elektronik, Automatisierung, Regelungstechnik, Programmierung und mechatronischer Systementwicklung.
+       </p>
+      </article>
+      <article class="career-card">
+       <p class="career-type">
+        Spezialisierung auf autonomes Fahren
+       </p>
+       <h3>
+        Self-Driving Car Engineer Nanodegree
+       </h3>
+       <p>
+        Praxisorientierte Vertiefung in Wahrnehmung, Sensorfusion, Lokalisierung, Pfadplanung und Regelung autonomer Fahrzeuge mit Python, C++, TensorFlow, Keras und ROS.
+       </p>
+      </article>
+      <article class="career-card">
+       <p class="career-type">
+        Automobilindustrie
+       </p>
+       <h3>
+        Produktionstechnik und Qualit&auml;tsmanagement
+       </h3>
+       <p>
+        Berufserfahrung bei einem Tier-1-Automobilzulieferer mit Produktionsplanung, Reihenfolgeplanung, Qualit&auml;tsdokumentation, Fehleranalyse sowie Unterst&uuml;tzung bei Akkreditierungsaktivit&auml;ten nach ISO 9001 und IATF 16949.
+       </p>
+      </article>
+      <article class="career-card">
+       <p class="career-type">
+        Weiterf&uuml;hrendes Studium
+       </p>
+       <h3>
+        M.Eng. Artificial Intelligence for Smart Sensors and Actuators
+       </h3>
+       <p>
+        Spezialisierung auf K&uuml;nstliche Intelligenz, Robotik, autonome Systeme, intelligente Sensoren und Aktoren sowie intelligente mechatronische Anwendungen.
+       </p>
+      </article>
+      <article class="career-card">
+       <p class="career-type">
+        Forschung und Laborarbeit
+       </p>
+       <h3>
+        Elektronik- und Robotiklabor
+       </h3>
+       <p>
+        Unterst&uuml;tzung von Laboraktivit&auml;ten, Vorbereitung robotischer Plattformen, Betreuung von Studierenden und Forschenden sowie Arbeit mit Python, C++, ROS/ROS2 und Simulationswerkzeugen.
+       </p>
+      </article>
+      <article class="career-card">
+       <p class="career-type">
+        Forschungspublikation
+       </p>
+       <h3>
+        CoDIT 2024
+       </h3>
+       <p>
+        Mitwirkung an Forschungsarbeiten zur Exploration und Navigation autonomer mobiler Roboter, ver&ouml;ffentlicht im Rahmen der International Conference on Control, Decision and Information Technologies 2024.
+       </p>
+      </article>
+     </div>
+     <div class="section-action section-action-group">
+      <a class="button button-secondary" href="education_de.html">
+       Ausbildung ansehen
+      </a>
+      <a class="button button-secondary" href="experience_de.html">
+       Berufserfahrung ansehen
+      </a>
+     </div>
+    </div>
+   </section>
+   <section class="section projects-section" id="projects">
+    <div class="container">
+     <div class="section-heading">
+      <p class="section-label">
+       Ausgew&auml;hlte Arbeiten
+      </p>
+      <h2>
+       Projekte und Forschung
+      </h2>
+      <p>
+       Ausgew&auml;hlte Arbeiten, die meine Erfahrung in K&uuml;nstlicher Intelligenz, Robotik und autonomen Systemen zeigen.
+      </p>
+     </div>
+     <div class="projects-grid">
+      <article class="project-card">
+       <p class="project-category">
+        K&uuml;nstliche Intelligenz &middot; Robotik
+       </p>
+       <h3>
+        Intentionserkennung bei Fu&szlig;g&auml;ngern
+       </h3>
+       <p>
+        In meiner Masterarbeit entwickelte ich eine Pipeline zur Fu&szlig;g&auml;ngererkennung und -verfolgung, zur Erkennung aktueller Handlungen und zur kurzfristigen Intentionserkennung. Ziel war die Unterst&uuml;tzung einer sichereren Pfadplanung f&uuml;r einen autonomen Lieferroboter.
+       </p>
+       <p class="technology-list">
+        Tiefenkamera &middot; I3D &middot; LSTM &middot; MLP &middot; Menschzentrierte Navigation
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Autonome Robotik
+       </p>
+       <h3>
+        Navigation eines autonomen mobilen Roboters
+       </h3>
+       <p>
+        Entwicklung einer L&ouml;sung zur autonomen Exploration und Navigation eines mobilen Roboters in einer zun&auml;chst unbekannten Umgebung.
+       </p>
+       <p class="technology-list">
+        ROS / ROS2 &middot; TurtleBot3 &middot; Gazebo &middot; Kartierung &middot; Navigation
+       </p>
+      </article>
+      <article class="project-card">
+       <p class="project-category">
+        Autonomes Fahren
+       </p>
+       <h3>
+        Projekte im Bereich Self-Driving Car Engineering
+       </h3>
+       <p>
+        Entwicklung projektbasierter L&ouml;sungen f&uuml;r Computer Vision, Deep Learning, Sensorfusion, Fahrzeuglokalisierung, Verhaltensplanung, Trajektoriengenerierung und autonome Fahrzeugregelung.
+       </p>
+       <p class="technology-list">
+        Python &middot; C++ &middot; TensorFlow &middot; Keras &middot; ROS &middot; Kalman-Filter
+       </p>
+      </article>
+     </div>
+     <div class="section-action">
+      <a class="button button-secondary" href="projects_de.html">
+       Alle Projekte ansehen
+      </a>
+     </div>
+    </div>
+   </section>
+   <section class="section contact-section" id="contact">
+    <div class="container contact-container">
+     <div class="contact-content">
+      <p class="section-label">
+       Kontakt
+      </p>
+      <h2>
+       Lassen Sie uns vernetzen
+      </h2>
+      <p>
+       Ich interessiere mich aktuell f&uuml;r berufliche Positionen in den Bereichen Automotive Engineering, Robotik, autonome Systeme, Automatisierung und technische Softwareentwicklung.
+      </p>
+      <p>
+       Ich wohne in Ingolstadt und suche insbesondere nach M&ouml;glichkeiten in Bayern sowie in anderen Regionen Deutschlands.
+      </p>
+     </div>
+     <div class="contact-actions">
+      <a class="button button-primary" href="mailto:epilefrojasleon@gmail.com">
+       E-Mail senden
+      </a>
+      <a class="button button-secondary" href="https://www.linkedin.com/in/felipe-rojas-ec/" rel="noopener noreferrer" target="_blank">
+       LinkedIn ansehen
+      </a>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="site-footer">
+   <div class="container footer-content">
+    <p>
+     &copy; 2026 Felipe Rojas
+    </p>
+    <div class="footer-links">
+     <a href="https://github.com/FelipeZerokun" rel="noopener noreferrer" target="_blank">
+      GitHub
+     </a>
+     <a href="https://www.linkedin.com/in/felipe-rojas-ec/" rel="noopener noreferrer" target="_blank">
+      LinkedIn
+     </a>
+     <a href="mailto:epilefrojasleon@gmail.com">
+      E-Mail
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
 </html>
